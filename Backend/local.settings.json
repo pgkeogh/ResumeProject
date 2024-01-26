@@ -4,7 +4,7 @@
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
-    "COSMOS-ENDPOINT": "https://pkscosmosdb.documents.azure.com:443/",
-    "COSMOS-KEY": "tOxfTD7HfJ49AGtbuZPZbinGQmKrBmRTjOvrfFGIIEM08zfKI0ZDM3hpVAYljgIxvLJtXd8Fe6riACDbRqMhzQ=="
+    "CosmosEndpoint": "https://pkscosmosdb.documents.azure.com:443/",
+    "CosmosKey": "tOxfTD7HfJ49AGtbuZPZbinGQmKrBmRTjOvrfFGIIEM08zfKI0ZDM3hpVAYljgIxvLJtXd8Fe6riACDbRqMhzQ=="
   }
 }
