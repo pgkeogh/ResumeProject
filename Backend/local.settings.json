@@ -1,0 +1,21 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=pkazresumechallenge;AccountKey=TdpVHXE6+j63eJggOgMt3s8j5zQMHSm71W+TDpijtlJOP4MKPkCogg7JPlRO5kk0iSScQaxhfBPO+AStesihyg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=pkazresumechallenge;AccountKey=TdpVHXE6+j63eJggOgMt3s8j5zQMHSm71W+TDpijtlJOP4MKPkCogg7JPlRO5kk0iSScQaxhfBPO+AStesihyg==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "pkazresumechallenge1fb44b",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "e0750960-5872-40d9-b165-cbb746179a60",
+    "CosmosDbConnectionString": "AccountEndpoint=https://pkscosmosdb.documents.azure.com:443/;AccountKey=tOxfTD7HfJ49AGtbuZPZbinGQmKrBmRTjOvrfFGIIEM08zfKI0ZDM3hpVAYljgIxvLJtXd8Fe6riACDbRqMhzQ==",
+    "COSMOS_ENDPOINT": "https://pkscosmosdb.documents.azure.com:443/",
+    "COSMOS_KEY": "tOxfTD7HfJ49AGtbuZPZbinGQmKrBmRTjOvrfFGIIEM08zfKI0ZDM3hpVAYljgIxvLJtXd8Fe6riACDbRqMhzQ==",
+  "Host": {
+    "CORS": "https://www.pksonlineadventure.com/"
+  }
+
+      
+
+  }
+}
