@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PK's Online Adventure || Blog</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- end nav button -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="resume.html" class="nav-link">resume</a></li>
+        <li><a href="architecture.html" class="nav-link">technical detail</a></li>
+        <li><a href="blog.html" class="nav-link">blog</a></li>
+      </ul>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Header -->
+    <header class="header-blog">
+      <div class="banner">
+        <h2>Welcome to</h2>
+        <h1>
+          PK's Online Adventure
+        </h1>
+      </div>
+    </header>
+    <!-- End of Header -->
+    <!-- Content Divider -->
+    <div class="content-divider"></div>
+    <!-- End of Content Divider -->
+    <section class="blog">
+      <div class="section-center clearfix">
+        <div class="section-title">
+          <h2> The Journey</h2>
+        </div>
+        <!-- single card -->
+        <article class="blog-card">
+          <!-- blog info -->
+          <div class="blog-info">
+            <h3>Background - and why the Cloud Resume Challenge?</h3>
+            <h4>10 November 2023</h4>
+            <p>
+              Prior to 2017 I had spent 19 years working for CSC (now DXC) in various solution design/solution architecture roles. My area of expertise was in large scale outsourcing of commodity IT services, which morphed into private//public/hybrid IaaS services. I was keen to try something else by the time the merger with HPE was announced, and so gratefully accepted a package in 2017.
+              <br>
+              <br>
+              I made the decision to get back into the IT game around June 2023. Goes without saying that six years is a long time in IT, and the last six years especially so! When I stepped away in 2017 most businesses were looking at Cloud mainly as an IaaS proposition, and AI/machine learning was still the domain of the data scientist.
+              <br>
+              <br>
+              My first activity was to load up on a courses and certifications. The ISC^2 courses were broad in nature and re-awakened the general mindset of an architect with a risk management focus. The AWS courses crammed my head with over 200 service acronyms and questions about what's left for everyone else to do. The courses I've taken have certainly brought me up to speed with what's available and possible.
+              <br>
+              <br>
+              As I was clicking my way through the Azure online training I didn't feel I was getting a proper grip on it. For sure, I was confident I could sit in a room and make suggestions about how things should work, but it didn't feel like a solid foundation.
+              <br>
+              <br>
+              I also realised that if I was to bridge a 6 year gap in IT work experience I would need to something to demonstrate all those "secondary" skills that made the best of my previous co-workers and direct reports stand out from the crowd - just in time learning, problem solving, initiative, resilience and persistence.
+              <br>
+              <br>
+              Enter the <a href="https://cloudresumechallenge.dev/" target="_blank">Cloud Resume Challenge!</a> To quote Forrest directly:
+              <br>
+              <br>
+              "...the Cloud Resume Challenge isn't a tutorial or a how-to guide. It's a project spec, and not a very helpful one at that. It tells you what the outcome of the project should be, and provides enough structure that you don't go too far off the rails, but other than that - you're on your own!"
+              <br>
+              <br>
+              As the saying goes, I’m not building the Taj Mahal here, but I still believe getting hands-on with tech is the best way to learn and come up to speed with what’s possible. So, lets get cracking!
+              <br>
+              <br>
+            </p>
+          </div>
+        </article>
+         <!-- end of single card -->
+        <!-- single card -->
+        <article class="blog-card">
+          <!-- blog info -->
+          <div class="blog-info">
+            <h3>Project Phase 1 - HTML, Azure Storage and CDN</h3>
+            <h4>11 November 2023</h4>
+            <p>
+              HTML/CSS - the minimum requirement is to convert your resume to HTML/CSS. I've probably gone a bit further with the site than the challenge requires, but I haven't played with HTML/CSS before and found it pretty interesting. 
+              <br><br>
+              I came across John Smilga's HTML/CSS course on YouTube of all places. After getting through about 6 hours (!) I ended up buying the course on <a href="https://www.udemy.com/share/101A483@n8hnTgvNlCIZEY6RlytAjmNgbx692bUQsj5yKeORHPDwRh1Y8QIrpC0l-iBgW0na/" target="_blank">Udemy.</a> It contains an extra 10 hours of projects not covered in the YouTube video, plus completed code to check your work against. Also - no ads, easier to navigate, and karma (its a great course).
+              <br>
+              <br>
+              I've still got one outstanding issue regarding responsiveness of image elements in a mobile browser, otherwise it all seems to work. So if you want to experience scrolling text over a fixed background, view the site on your laptop not your phone 🙂
+              <br><br> 
+              Domain Registration - registering my domain name with Cloudflare was pretty straight forward and cheap. By default they offer proxy services and general SSL certificate services, both of which I disabled. Microsoft CDN takes care of SSL.
+              <br>
+              <br>
+              Azure Storage and CDN - to be honest nothing much to report here - it all just works as you would expect. Plenty of how-to's on the website.
+              <br>
+              <br>
+              The Azure Tools in Visual Studio Code worked really well - editing code directly on the files stored in Azure. However once CDN was incorporated versioning issues between the source file and CDN's cache arose. So local editing and much purging of cache! This problem will be properly addressed once I complete the IaC and devOps phases.
+              <br>
+              <br>
+              All up I've spent about 30 hours on the HTML side (course, experimenting and troubleshooting), but it only took an extra 3-4 hours to get through the Azure and Cloudflare stuff. 
+              <br>
+              <br>
+              Up next..... Python and Azure Functions!
+            </p>
+          </div>
+        </article>
+         <!-- end of single card -->
+      </div>  
+    </section>
+
+     <!-- footer -->
+     <footer class="footer">
+        <div class="section-center">
+           <h4 class="footer-text">
+            &copy;<span >2023</span>
+            <span>PK's Online Adventure</span>
+            all rights reserved
+          </h4>
+        </div>
+       </footer>
+      <!-- end of footer -->
+      <script src="app.js"></script>
+    </body>
+  </html>
