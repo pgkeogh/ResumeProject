@@ -9,15 +9,15 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 def AzResumeTrigger(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
-    endpoint = os.environ.get("COSMOS_ENDPOINT")
-    account_key = os.environ.get("COSMOS_KEY")
+    endpoint = os.environ.get("COSMOS-ENDPOINT")
+    account-key = os.environ.get("COSMOS-KEY")
 
     if not endpoint or not account_key:
-        raise ValueError("COSMOS_ENDPOINT and COSMOS_KEY must be set as environment variables.")
+        raise ValueError("COSMOS-ENDPOINT and COSMOS-KEY must be set as environment variables.")
   
     database_name = "PKsVisitorCounter"
     container_name = "VisitorCounterContainer"
-    client = CosmosClient(endpoint, account_key)
+    client = CosmosClient(endpoint, account-key)
     database = client.get_database_client(database_name)
     container = database.get_container_client(container_name)
     query = f"SELECT * FROM c WHERE c.id = '1'"
