@@ -1,0 +1,35 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static website to Azure Storage blob
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: azure/login@v1
+      with:
+          creds: ${{ secrets.WEB_DEPLOY }}
+    - name: Upload to blob storage
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob upload-batch --account-name crcstoragea  --auth-mode key -d '$web' -s .
+    - name: Purge CDN endpoint
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+           az cdn endpoint purge --content-paths  "/*" --profile-name "CDN-pgkeogh-crc" --name "CDN-pgkeogh-CRC" --resource-group "CDN-CRC-RG"
+
+  # Azure logout
+    - name: logout
+      run: |
+            az logout
+      if: always()
