@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=c:\Users\pgkeo\Documents\back to work\crc\AzureFunction\.venv
+set VIRTUAL_ENV=c:\Users\pgkeo\Documents\back to work\ResumeProject\Backend\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
