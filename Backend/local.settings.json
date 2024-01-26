@@ -5,6 +5,6 @@
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
     "CosmosEndpoint": "https://pkscosmosdb.documents.azure.com:443/",
-    "CosmosKey": "@Microsoft.KeyVault(SecretUri=https://pgk-key-vault.vault.azure.net/secrets/CosmosKey/9f5f257a48fb4d1a9825e3d71533a785)"
+    "CosmosKey": "tOxfTD7HfJ49AGtbuZPZbinGQmKrBmRTjOvrfFGIIEM08zfKI0ZDM3hpVAYljgIxvLJtXd8Fe6riACDbRqMhzQ=="
   }
 }
