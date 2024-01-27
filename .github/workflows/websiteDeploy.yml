@@ -3,8 +3,8 @@ name: Deploy static website to Azure Storage blob
 
 on:
   # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
+  # push:
+  #   branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,8 +22,9 @@ jobs:
       with:
         inlineScript: |
             # Set the directory you want to upload
-            DIRECTORY_TO_UPLOAD='FrontEnd'  # Replace with your directory path
-            az storage blob upload-batch --account-name crcstoragea  --auth-mode key -d '$web' -s $DIRECTORY_TO_UPLOAD
+            DIRECTORY_TO_UPLOAD='FrontEnd'
+            # overwrites all files 
+            az storage blob upload-batch --overwrite --account-name crcstoragea  --auth-mode key -d '$web' -s $DIRECTORY_TO_UPLOAD
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
