@@ -21,7 +21,9 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name crcstoragea  --auth-mode key -d '$web' -s .
+            # Set the directory you want to upload
+            DIRECTORY_TO_UPLOAD='FrontEnd'  # Replace with your directory path
+            az storage blob upload-batch --account-name crcstoragea  --auth-mode key -d '$web' -s $DIRECTORY_TO_UPLOAD
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
