@@ -9,12 +9,3 @@ navBtn.addEventListener("click", () => {
 navClose.addEventListener("click", () => {
   navbar.classList.remove("showNav");
 });
-// page view counter
-let visitCount = localStorage.getItem("page_view");
-if (visitCount == null) {
-  visitCount = 1;
-} else {
-  visitCount = Number(visitCount) + 1;
-}
-localStorage.setItem("page_view", visitCount);
-document.write("You are visitor number " + visitCount + ".");

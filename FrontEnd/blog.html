@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>PK's Online Adventure || Blog</title>
     <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
-    />
+    <link href="./fontawesome-free-6.5.1-web/css/all.min.css" rel="stylesheet"/>
     <!-- custom css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -59,13 +56,13 @@
             <h3>Background - and why the Cloud Resume Challenge?</h3>
             <h4>10 November 2023</h4>
             <p>
-              Prior to 2017 I had spent 19 years working for CSC (now DXC) in various solution design/solution architecture roles. My area of expertise was in large scale outsourcing of commodity IT services, which morphed into private//public/hybrid IaaS services. I was keen to try something else by the time the merger with HPE was announced, and so gratefully accepted a package in 2017.
+              Prior to 2017 I had spent 19 years working for CSC (now DXC) in various solution design/solution architecture roles. My area of expertise was in large scale outsourcing of commodity IT services, which morphed into private/public/hybrid IaaS services. I was keen to try something else by the time the merger with HPE was announced, and so gratefully accepted a package in 2017.
               <br>
               <br>
-              I made the decision to get back into the IT game around June 2023. Goes without saying that six years is a long time in IT, and the last six years especially so! When I stepped away in 2017 most businesses were looking at Cloud mainly as an IaaS proposition, and AI/machine learning was still the domain of the data scientist.
+              I made the decision to get back into the IT game around June 2023. Goes without saying that six years is a long time in IT, and the last six years especially so!
               <br>
               <br>
-              My first activity was to load up on a courses and certifications. The ISC^2 courses were broad in nature and re-awakened the general mindset of an architect with a risk management focus. The AWS courses crammed my head with over 200 service acronyms and questions about what's left for everyone else to do. The courses I've taken have certainly brought me up to speed with what's available and possible.
+              My first activity was to load up on a courses and certifications, to bring myself up to speed with what's available and what's possible today. The ISC^2 courses were broad in nature and provided a good overview of the state of play, at least from a risk, regulatory and governance perspective. I then crammed my head full of over 200 acronyms and service descriptions to gain the AWS Practitioner cert.  
               <br>
               <br>
               As I was clicking my way through the Azure online training I didn't feel I was getting a proper grip on it. For sure, I was confident I could sit in a room and make suggestions about how things should work, but it didn't feel like a solid foundation.
@@ -80,7 +77,7 @@
               "...the Cloud Resume Challenge isn't a tutorial or a how-to guide. It's a project spec, and not a very helpful one at that. It tells you what the outcome of the project should be, and provides enough structure that you don't go too far off the rails, but other than that - you're on your own!"
               <br>
               <br>
-              As the saying goes, I’m not building the Taj Mahal here, but I still believe getting hands-on with tech is the best way to learn and come up to speed with what’s possible. So, lets get cracking!
+              In essence the challenge requires us to build a simple website using as many cloud-related services as possible. I do believe that getting hands-on with tech is the best way to learn and come up to speed with what’s possible.  So, lets get cracking!
               <br>
               <br>
             </p>
@@ -96,7 +93,7 @@
             <p>
               HTML/CSS - the minimum requirement is to convert your resume to HTML/CSS. I've probably gone a bit further with the site than the challenge requires, but I haven't played with HTML/CSS before and found it pretty interesting. 
               <br><br>
-              I came across John Smilga's HTML/CSS course on YouTube of all places. After getting through about 6 hours (!) I ended up buying the course on <a href="https://www.udemy.com/share/101A483@n8hnTgvNlCIZEY6RlytAjmNgbx692bUQsj5yKeORHPDwRh1Y8QIrpC0l-iBgW0na/" target="_blank">Udemy.</a> It contains an extra 10 hours of projects not covered in the YouTube video, plus completed code to check your work against. Also - no ads, easier to navigate, and karma (its a great course).
+              I came across John Smilga's HTML/CSS course on <a href="https://www.udemy.com/share/101A483@n8hnTgvNlCIZEY6RlytAjmNgbx692bUQsj5yKeORHPDwRh1Y8QIrpC0l-iBgW0na/" target="_blank">Udemy.</a>
               <br>
               <br>
               I've still got one outstanding issue regarding responsiveness of image elements in a mobile browser, otherwise it all seems to work. So if you want to experience scrolling text over a fixed background, view the site on your laptop not your phone 🙂
@@ -118,6 +115,69 @@
           </div>
         </article>
          <!-- end of single card -->
+        <!-- single card -->
+        <article class="blog-card">
+          <!-- blog info -->
+          <div class="blog-info">
+            <h3>Project Phase 2 - Azure Functions, Python, CosmosDB, Key Vault, Github</h3>
+            <h4>28 January 2024</h4>
+            <p>
+            This section has taken me a bit longer, as I got bogged down with Javascript and Python courses (having never written a line of code in either prior to December last year), plus Christmas and summer holidays.</p>
+            <br>
+            <h5>Azure Functions with Python</h5>
+            <p>The Microsoft doco refers to a new class-based programming model for Python introduced with Azure Functions Python v4+. The new approach removes the need for a separate "function.json" file containing bindings etc. I found this a bit of a problem given many Challengers have used the old version.
+            <br>
+            <br>
+            Following on from the HTML piece I did all the coding in Visual Studio Code with a variety of extensions (Python, Github Pull and Request Issues, Azure Account, Azure Database, Azure Functions, Azure Resources, Azure Static Web Apps, Azure Storage and Azurite local storage emulator). Along with the obvious benefits I found these helped with a lot of behind-the-scenes config while deploying a function from local into Azure, converting local json settings to Application Settings for example.
+            <br>
+            <br>
+            The MS articles were a good starting point for creating a function locally, then deploying to Azure. The quickstart files also cover connecting to a CosmosDB instance.
+            <br>
+            <br>
+            <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-add-output-binding-cosmos-db-vs-code?pivots=programming-language-python&tabs=isolated-process%2Cv1" target="_blank">Connect Azure Functions to Azure Cosmos DB using Visual Studio Code.</a>
+            <br>
+            <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cisolated-process&pivots=programming-language-python" target="_blank">Develop Azure Functions by using Visual Studio Code.</a>
+            <br>
+            <br>
+            Regarding CosmosDB, I want to acknowledge a fellow challenger techbrett for the query solution, as its a much more databasey way of doing things than the python code I was struggling with:
+            <br>
+            <a href="https://github.com/techbrett/azure-resume/" target="_blank">techbrett</a>
+            <br>
+            <br>
+            I've implemented Azure Key Vault to store any credentials or access keys required by the solution. The variables defined in Azure Application Settings now contain a pointer to the key vault rather than the access key itself. There are VSC extensions allowing you to read from the Key Vault when doing your local development but I haven't gone down that rabbit hole yet. This article was helpful, although the screens look slightly different:
+            <br>
+            <br>
+            <a href="https://levelup.gitconnected.com/a-secure-way-to-use-credentials-and-secrets-in-azure-functions-7ec91813c807" target="_blank">A Secure way to use Credentials and Secrets in Azure Functions | by Dhyanendra Singh Rathore</a>
+            <br>
+            <br>
+            </p>
+            <h5>Github integration and automated deployment</h5>
+            <p>
+            In hindsight, one should have set this up prior to writing any code 🙂 That said, adding it in afterwards wasn't too much of an issue, although strangely Github kept tracking changes on a couple of files that I didn't want synched with the repository, even though they were added to the .gitignore file. I had to use git bash to manually exclude them. ChatGPT to the rescue!
+            <br>
+            <br>
+            I've created two deployment workflows - one for front end and one for backend. Make sure when creating the service account as per the MS doco you make it a contributor for both the storage RG and CDN RG (if you're using CDN). They work well, although both are triggered any time a change is made to the main branch, and using the commands outlined in the MS doco, that means all files are copied up every time. While I'm still making regular changes to the website I've reset the workflow to manual for now. Also need to think about whether every file needs to be copied up or whether a differential copy is more efficient, in which case need to use azcopy synch instead.
+            <br>
+            <br>
+            <a href="https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions?tabs=userlevel" target="_blank">Use GitHub Actions to deploy a static site to Azure Storage</a>
+            <br>
+            <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions?tabs=linux%2Cdotnet&pivots=method-manual" target="_blank">Use GitHub Actions to make code updates in Azure Functions</a>
+            <br>
+            <br>
+            </p>
+            <h5>Conclusion and next steps</h5>
+            <br>
+            <br>
+            <p>
+            This part of the challenge made my head hurt 🙂 There are a number of moving parts and new concepts all being deployed in parallel while being discovered for the first time - IDE integration with Github and Azure, Python, local versus remote deployments etc etc. Of all the components, practices and processes related to this solution, I'd say its my
+            troubleshooting skills have been improved the most, and ChatGPT has been indispensible. 
+            <br>
+            <br>
+            The two key elements of the challenge that I haven't completed are testing and IaC. I'm leaving them for now, as I need to cycle back and finish the Python and Javascript courses. Also, I'm heading down data path rather than a devops engineer/architect path, and have a couple of projects that I want to get cracking on. I believe a big tick for me will be the ability to deploy a cloud-based platform upon which the data analysis can be run. This project has therefore given me a strong foundation for the next phase.
+            </p>
+          </div>
+        </article>
+        <!-- end of single card -->
       </div>  
     </section>
 
