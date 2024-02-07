@@ -1,0 +1,2154 @@
+[
+    {
+        "city_ascii": "Adelaide",
+        "lat": "-34.9275",
+        "lng": "138.6",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036538171"
+    },
+    {
+        "city_ascii": "Adelaide River",
+        "lat": "-13.2381",
+        "lng": "131.1061",
+        "country": "Australia",
+        "admin_name": "Northern Territory",
+        "id": "1036136750"
+    },
+    {
+        "city_ascii": "Albany",
+        "lat": "-35.0228",
+        "lng": "117.8814",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036047365"
+    },
+    {
+        "city_ascii": "Albury",
+        "lat": "-36.0806",
+        "lng": "146.9158",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036076542"
+    },
+    {
+        "city_ascii": "Alice Springs",
+        "lat": "-23.7",
+        "lng": "133.8667",
+        "country": "Australia",
+        "admin_name": "Northern Territory",
+        "id": "1036830397"
+    },
+    {
+        "city_ascii": "Andamooka",
+        "lat": "-30.447",
+        "lng": "137.166",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036260794"
+    },
+    {
+        "city_ascii": "Andergrove",
+        "lat": "-21.0931",
+        "lng": "149.186",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036907443"
+    },
+    {
+        "city_ascii": "Ararat",
+        "lat": "-37.2833",
+        "lng": "142.9167",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036674088"
+    },
+    {
+        "city_ascii": "Armidale",
+        "lat": "-30.5",
+        "lng": "151.65",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036975829"
+    },
+    {
+        "city_ascii": "Atherton",
+        "lat": "-17.2658",
+        "lng": "145.478",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036456869"
+    },
+    {
+        "city_ascii": "Australind",
+        "lat": "-33.28",
+        "lng": "115.726",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036182351"
+    },
+    {
+        "city_ascii": "Ayr",
+        "lat": "-19.5744",
+        "lng": "147.4066",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036228772"
+    },
+    {
+        "city_ascii": "Bairnsdale",
+        "lat": "-37.8333",
+        "lng": "147.6167",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036432237"
+    },
+    {
+        "city_ascii": "Ballarat",
+        "lat": "-37.5608",
+        "lng": "143.8475",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036567186"
+    },
+    {
+        "city_ascii": "Ballina",
+        "lat": "-28.8333",
+        "lng": "153.5333",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036040102"
+    },
+    {
+        "city_ascii": "Banora Point",
+        "lat": "-28.2225",
+        "lng": "153.5386",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036608972"
+    },
+    {
+        "city_ascii": "Barcaldine",
+        "lat": "-23.5555",
+        "lng": "145.2888",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036284609"
+    },
+    {
+        "city_ascii": "Barwon Heads",
+        "lat": "-38.25",
+        "lng": "144.5167",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036797778"
+    },
+    {
+        "city_ascii": "Batemans Bay",
+        "lat": "-35.7081",
+        "lng": "150.1744",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036272805"
+    },
+    {
+        "city_ascii": "Bathurst",
+        "lat": "-33.42",
+        "lng": "149.5778",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036446465"
+    },
+    {
+        "city_ascii": "Bedourie",
+        "lat": "-24.35",
+        "lng": "139.4667",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036680924"
+    },
+    {
+        "city_ascii": "Benalla",
+        "lat": "-36.5519",
+        "lng": "145.9817",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036934047"
+    },
+    {
+        "city_ascii": "Bendigo",
+        "lat": "-36.75",
+        "lng": "144.2667",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036537913"
+    },
+    {
+        "city_ascii": "Berri",
+        "lat": "-34.2833",
+        "lng": "140.6",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036554717"
+    },
+    {
+        "city_ascii": "Bicheno",
+        "lat": "-41.8667",
+        "lng": "148.2833",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036189642"
+    },
+    {
+        "city_ascii": "Biloela",
+        "lat": "-24.4002",
+        "lng": "150.5133",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036014905"
+    },
+    {
+        "city_ascii": "Birdsville",
+        "lat": "-25.8989",
+        "lng": "139.352",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036830335"
+    },
+    {
+        "city_ascii": "Bongaree",
+        "lat": "-27.0813",
+        "lng": "153.1636",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036269345"
+    },
+    {
+        "city_ascii": "Bordertown",
+        "lat": "-36.3118",
+        "lng": "140.7702",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036115980"
+    },
+    {
+        "city_ascii": "Boulia",
+        "lat": "-22.9",
+        "lng": "139.9",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036512474"
+    },
+    {
+        "city_ascii": "Bourke",
+        "lat": "-30.1",
+        "lng": "145.9333",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036074667"
+    },
+    {
+        "city_ascii": "Bowen",
+        "lat": "-20.0102",
+        "lng": "148.2416",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036979225"
+    },
+    {
+        "city_ascii": "Bowral",
+        "lat": "-34.4792",
+        "lng": "150.4181",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036253752"
+    },
+    {
+        "city_ascii": "Brisbane",
+        "lat": "-27.4678",
+        "lng": "153.0281",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036192929"
+    },
+    {
+        "city_ascii": "Broken Hill",
+        "lat": "-31.95",
+        "lng": "141.4667",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036216956"
+    },
+    {
+        "city_ascii": "Broome",
+        "lat": "-17.9619",
+        "lng": "122.2361",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036047905"
+    },
+    {
+        "city_ascii": "Bunbury",
+        "lat": "-33.3272",
+        "lng": "115.6369",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036561011"
+    },
+    {
+        "city_ascii": "Bundaberg",
+        "lat": "-24.8661",
+        "lng": "152.3494",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036377333"
+    },
+    {
+        "city_ascii": "Burketown",
+        "lat": "-17.7167",
+        "lng": "139.5667",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036956849"
+    },
+    {
+        "city_ascii": "Burnie",
+        "lat": "-41.0636",
+        "lng": "145.8753",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036394657"
+    },
+    {
+        "city_ascii": "Busselton",
+        "lat": "-33.6478",
+        "lng": "115.3458",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036911902"
+    },
+    {
+        "city_ascii": "Byron Bay",
+        "lat": "-28.6483",
+        "lng": "153.6178",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036606974"
+    },
+    {
+        "city_ascii": "Caboolture",
+        "lat": "-27.0667",
+        "lng": "152.967",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036273434"
+    },
+    {
+        "city_ascii": "Cairns",
+        "lat": "-16.92",
+        "lng": "145.78",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036016939"
+    },
+    {
+        "city_ascii": "Caloundra",
+        "lat": "-26.7986",
+        "lng": "153.1289",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036266942"
+    },
+    {
+        "city_ascii": "Camooweal",
+        "lat": "-19.9167",
+        "lng": "138.117",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036815011"
+    },
+    {
+        "city_ascii": "Campbelltown",
+        "lat": "-34.0733",
+        "lng": "150.8261",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036474450"
+    },
+    {
+        "city_ascii": "Canberra",
+        "lat": "-35.2931",
+        "lng": "149.1269",
+        "country": "Australia",
+        "admin_name": "Australian Capital Territory",
+        "id": "1036142029"
+    },
+    {
+        "city_ascii": "Carnarvon",
+        "lat": "-24.8672",
+        "lng": "113.6611",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036344209"
+    },
+    {
+        "city_ascii": "Casino",
+        "lat": "-28.8667",
+        "lng": "153.05",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036855900"
+    },
+    {
+        "city_ascii": "Ceduna",
+        "lat": "-32.1167",
+        "lng": "133.6667",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036725988"
+    },
+    {
+        "city_ascii": "Central Coast",
+        "lat": "-33.3",
+        "lng": "151.2",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036067845"
+    },
+    {
+        "city_ascii": "Cessnock",
+        "lat": "-32.8342",
+        "lng": "151.3555",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036822046"
+    },
+    {
+        "city_ascii": "Charleville",
+        "lat": "-26.4016",
+        "lng": "146.2383",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036575498"
+    },
+    {
+        "city_ascii": "Charters Towers",
+        "lat": "-20.0765",
+        "lng": "146.2614",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036733088"
+    },
+    {
+        "city_ascii": "Clare",
+        "lat": "-33.8333",
+        "lng": "138.6",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036842122"
+    },
+    {
+        "city_ascii": "Cloncurry",
+        "lat": "-20.7047",
+        "lng": "140.5052",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036672657"
+    },
+    {
+        "city_ascii": "Cobram",
+        "lat": "-35.9667",
+        "lng": "145.65",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036438159"
+    },
+    {
+        "city_ascii": "Coffs Harbour",
+        "lat": "-30.3022",
+        "lng": "153.1189",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036320442"
+    },
+    {
+        "city_ascii": "Colac",
+        "lat": "-38.3403",
+        "lng": "143.5847",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036633113"
+    },
+    {
+        "city_ascii": "Cooma",
+        "lat": "-36.2317",
+        "lng": "149.1178",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036070931"
+    },
+    {
+        "city_ascii": "Corinda",
+        "lat": "-27.4833",
+        "lng": "153.1",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036501460"
+    },
+    {
+        "city_ascii": "Cowell",
+        "lat": "-33.6833",
+        "lng": "136.9167",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036921929"
+    },
+    {
+        "city_ascii": "Cowra",
+        "lat": "-33.8183",
+        "lng": "148.6578",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036204877"
+    },
+    {
+        "city_ascii": "Cranbourne",
+        "lat": "-38.0996",
+        "lng": "145.2834",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036685862"
+    },
+    {
+        "city_ascii": "Currumbin",
+        "lat": "-28.158",
+        "lng": "153.469",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036194178"
+    },
+    {
+        "city_ascii": "Dalby",
+        "lat": "-27.1813",
+        "lng": "151.2661",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036053707"
+    },
+    {
+        "city_ascii": "Dandenong",
+        "lat": "-37.981",
+        "lng": "145.215",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036214023"
+    },
+    {
+        "city_ascii": "Darwin",
+        "lat": "-12.4381",
+        "lng": "130.8411",
+        "country": "Australia",
+        "admin_name": "Northern Territory",
+        "id": "1036497565"
+    },
+    {
+        "city_ascii": "Deniliquin",
+        "lat": "-35.5331",
+        "lng": "144.9667",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036325219"
+    },
+    {
+        "city_ascii": "Devonport",
+        "lat": "-41.18",
+        "lng": "146.3503",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036033175"
+    },
+    {
+        "city_ascii": "Drouin",
+        "lat": "-38.1333",
+        "lng": "145.85",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036564546"
+    },
+    {
+        "city_ascii": "Dubbo",
+        "lat": "-32.2569",
+        "lng": "148.6011",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036855042"
+    },
+    {
+        "city_ascii": "Echuca",
+        "lat": "-36.1333",
+        "lng": "144.75",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036292989"
+    },
+    {
+        "city_ascii": "Eidsvold",
+        "lat": "-25.3667",
+        "lng": "151.1333",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036235197"
+    },
+    {
+        "city_ascii": "Emerald",
+        "lat": "-23.5208",
+        "lng": "148.1619",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036124660"
+    },
+    {
+        "city_ascii": "Esperance",
+        "lat": "-33.8611",
+        "lng": "121.8919",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036299314"
+    },
+    {
+        "city_ascii": "Exmouth",
+        "lat": "-21.9331",
+        "lng": "114.1281",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036006022"
+    },
+    {
+        "city_ascii": "Forbes",
+        "lat": "-33.3817",
+        "lng": "148.0011",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036523834"
+    },
+    {
+        "city_ascii": "Forster",
+        "lat": "-32.1806",
+        "lng": "152.5117",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036685795"
+    },
+    {
+        "city_ascii": "Frankston",
+        "lat": "-38.158",
+        "lng": "145.135",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036126828"
+    },
+    {
+        "city_ascii": "Gawler",
+        "lat": "-34.5981",
+        "lng": "138.745",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036309493"
+    },
+    {
+        "city_ascii": "Geelong",
+        "lat": "-38.15",
+        "lng": "144.35",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036870987"
+    },
+    {
+        "city_ascii": "Georgetown",
+        "lat": "-18.3",
+        "lng": "143.55",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036412066"
+    },
+    {
+        "city_ascii": "Geraldton",
+        "lat": "-28.7744",
+        "lng": "114.6089",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036811875"
+    },
+    {
+        "city_ascii": "Gingin",
+        "lat": "-31.34",
+        "lng": "115.91",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036686561"
+    },
+    {
+        "city_ascii": "Gisborne",
+        "lat": "-37.49",
+        "lng": "144.5889",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036388639"
+    },
+    {
+        "city_ascii": "Gladstone",
+        "lat": "-23.8427",
+        "lng": "151.2555",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036070755"
+    },
+    {
+        "city_ascii": "Gold Coast",
+        "lat": "-28.0167",
+        "lng": "153.4",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036153217"
+    },
+    {
+        "city_ascii": "Goondiwindi",
+        "lat": "-28.5461",
+        "lng": "150.3097",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036452066"
+    },
+    {
+        "city_ascii": "Goonellabah",
+        "lat": "-28.8167",
+        "lng": "153.3167",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036897159"
+    },
+    {
+        "city_ascii": "Goulburn",
+        "lat": "-34.7547",
+        "lng": "149.6186",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036347537"
+    },
+    {
+        "city_ascii": "Gracemere",
+        "lat": "-23.4391",
+        "lng": "150.4558",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036779939"
+    },
+    {
+        "city_ascii": "Grafton",
+        "lat": "-29.6833",
+        "lng": "152.9333",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036615468"
+    },
+    {
+        "city_ascii": "Griffith",
+        "lat": "-34.29",
+        "lng": "146.04",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036563313"
+    },
+    {
+        "city_ascii": "Gunnedah",
+        "lat": "-30.9817",
+        "lng": "150.2511",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036500021"
+    },
+    {
+        "city_ascii": "Gympie",
+        "lat": "-26.19",
+        "lng": "152.6655",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036391013"
+    },
+    {
+        "city_ascii": "Halls Creek",
+        "lat": "-18.23",
+        "lng": "127.67",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036444511"
+    },
+    {
+        "city_ascii": "Hamilton",
+        "lat": "-37.7333",
+        "lng": "142.0167",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036699883"
+    },
+    {
+        "city_ascii": "Hervey Bay",
+        "lat": "-25.29",
+        "lng": "152.84",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036833938"
+    },
+    {
+        "city_ascii": "Highfields",
+        "lat": "-27.4633",
+        "lng": "151.9458",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036399510"
+    },
+    {
+        "city_ascii": "Hobart",
+        "lat": "-42.8806",
+        "lng": "147.325",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036679838"
+    },
+    {
+        "city_ascii": "Horsham",
+        "lat": "-36.7167",
+        "lng": "142.2",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036654340"
+    },
+    {
+        "city_ascii": "Hughenden",
+        "lat": "-20.8438",
+        "lng": "144.1986",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036738932"
+    },
+    {
+        "city_ascii": "Ingham",
+        "lat": "-18.6508",
+        "lng": "146.1572",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036238542"
+    },
+    {
+        "city_ascii": "Innisfail",
+        "lat": "-17.5238",
+        "lng": "146.0311",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036930229"
+    },
+    {
+        "city_ascii": "Inverell",
+        "lat": "-29.7667",
+        "lng": "151.1167",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036652902"
+    },
+    {
+        "city_ascii": "Ipswich",
+        "lat": "-27.6167",
+        "lng": "152.7667",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036244388"
+    },
+    {
+        "city_ascii": "Ivanhoe",
+        "lat": "-32.8983",
+        "lng": "144.3",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036571526"
+    },
+    {
+        "city_ascii": "Jimboomba",
+        "lat": "-27.83",
+        "lng": "153.0313",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036214142"
+    },
+    {
+        "city_ascii": "Kalbarri",
+        "lat": "-27.71",
+        "lng": "114.16",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036429141"
+    },
+    {
+        "city_ascii": "Kalgoorlie",
+        "lat": "-30.7489",
+        "lng": "121.4658",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036087904"
+    },
+    {
+        "city_ascii": "Kangaroo Flat",
+        "lat": "-36.7833",
+        "lng": "144.233",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036769935"
+    },
+    {
+        "city_ascii": "Karratha",
+        "lat": "-20.7364",
+        "lng": "116.8464",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036951388"
+    },
+    {
+        "city_ascii": "Karumba",
+        "lat": "-17.4838",
+        "lng": "140.8397",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036926106"
+    },
+    {
+        "city_ascii": "Katanning",
+        "lat": "-33.6908",
+        "lng": "117.5553",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036411379"
+    },
+    {
+        "city_ascii": "Katherine",
+        "lat": "-14.4667",
+        "lng": "132.2667",
+        "country": "Australia",
+        "admin_name": "Northern Territory",
+        "id": "1036323110"
+    },
+    {
+        "city_ascii": "Katoomba",
+        "lat": "-33.715",
+        "lng": "150.312",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036674004"
+    },
+    {
+        "city_ascii": "Kelso",
+        "lat": "-33.4186",
+        "lng": "149.6056",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036270756"
+    },
+    {
+        "city_ascii": "Kempsey",
+        "lat": "-31.0833",
+        "lng": "152.8333",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036897003"
+    },
+    {
+        "city_ascii": "Kiama",
+        "lat": "-34.6708",
+        "lng": "150.8542",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036754695"
+    },
+    {
+        "city_ascii": "Kimba",
+        "lat": "-33.1333",
+        "lng": "136.417",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036035341"
+    },
+    {
+        "city_ascii": "Kingaroy",
+        "lat": "-26.5408",
+        "lng": "151.8394",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036463308"
+    },
+    {
+        "city_ascii": "Kingoonya",
+        "lat": "-30.9",
+        "lng": "135.3",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036942792"
+    },
+    {
+        "city_ascii": "Kingston",
+        "lat": "-42.9769",
+        "lng": "147.3083",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036297213"
+    },
+    {
+        "city_ascii": "Kingston South East",
+        "lat": "-36.8167",
+        "lng": "139.85",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036261175"
+    },
+    {
+        "city_ascii": "Kununurra",
+        "lat": "-15.7736",
+        "lng": "128.7386",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036556231"
+    },
+    {
+        "city_ascii": "Kwinana",
+        "lat": "-32.2394",
+        "lng": "115.7702",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036753478"
+    },
+    {
+        "city_ascii": "Lara",
+        "lat": "-38.0167",
+        "lng": "144.4167",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036754750"
+    },
+    {
+        "city_ascii": "Launceston",
+        "lat": "-41.4419",
+        "lng": "147.145",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036170383"
+    },
+    {
+        "city_ascii": "Laverton",
+        "lat": "-28.628",
+        "lng": "122.403",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036624366"
+    },
+    {
+        "city_ascii": "Leeton",
+        "lat": "-34.5667",
+        "lng": "146.4",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036102538"
+    },
+    {
+        "city_ascii": "Leonora",
+        "lat": "-28.8845",
+        "lng": "121.3308",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036140404"
+    },
+    {
+        "city_ascii": "Leopold",
+        "lat": "-38.1892",
+        "lng": "144.4644",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036263278"
+    },
+    {
+        "city_ascii": "Lismore",
+        "lat": "-28.8167",
+        "lng": "153.2833",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036024174"
+    },
+    {
+        "city_ascii": "Lithgow",
+        "lat": "-33.4833",
+        "lng": "150.15",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036591538"
+    },
+    {
+        "city_ascii": "Longreach",
+        "lat": "-23.4422",
+        "lng": "144.2491",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036622618"
+    },
+    {
+        "city_ascii": "Mackay",
+        "lat": "-21.1411",
+        "lng": "149.1858",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036507374"
+    },
+    {
+        "city_ascii": "Maitland",
+        "lat": "-32.7167",
+        "lng": "151.55",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036034945"
+    },
+    {
+        "city_ascii": "Mandurah",
+        "lat": "-32.5289",
+        "lng": "115.7231",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036773118"
+    },
+    {
+        "city_ascii": "Manjimup",
+        "lat": "-34.2411",
+        "lng": "116.1464",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036022434"
+    },
+    {
+        "city_ascii": "Mareeba",
+        "lat": "-16.9833",
+        "lng": "145.4167",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036797275"
+    },
+    {
+        "city_ascii": "Maryborough",
+        "lat": "-25.5375",
+        "lng": "152.7019",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036205623"
+    },
+    {
+        "city_ascii": "Maryborough",
+        "lat": "-37.05",
+        "lng": "143.735",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036781601"
+    },
+    {
+        "city_ascii": "McMinns Lagoon",
+        "lat": "-12.5329",
+        "lng": "131.05",
+        "country": "Australia",
+        "admin_name": "Northern Territory",
+        "id": "1036673821"
+    },
+    {
+        "city_ascii": "Meekatharra",
+        "lat": "-26.5931",
+        "lng": "118.4911",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036608457"
+    },
+    {
+        "city_ascii": "Melbourne",
+        "lat": "-37.8142",
+        "lng": "144.9631",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036533631"
+    },
+    {
+        "city_ascii": "Melton",
+        "lat": "-37.6833",
+        "lng": "144.5833",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036007778"
+    },
+    {
+        "city_ascii": "Meningie",
+        "lat": "-35.6883",
+        "lng": "139.338",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036445634"
+    },
+    {
+        "city_ascii": "Merimbula",
+        "lat": "-36.8983",
+        "lng": "149.9011",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036933197"
+    },
+    {
+        "city_ascii": "Merredin",
+        "lat": "-31.482",
+        "lng": "118.279",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036578320"
+    },
+    {
+        "city_ascii": "Mildura",
+        "lat": "-34.1889",
+        "lng": "142.1583",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036624348"
+    },
+    {
+        "city_ascii": "Moe",
+        "lat": "-38.1722",
+        "lng": "146.2678",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036922580"
+    },
+    {
+        "city_ascii": "Moranbah",
+        "lat": "-22.0016",
+        "lng": "148.0533",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036916453"
+    },
+    {
+        "city_ascii": "Morawa",
+        "lat": "-29.2111",
+        "lng": "116.009",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036194388"
+    },
+    {
+        "city_ascii": "Moree",
+        "lat": "-29.465",
+        "lng": "149.8344",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036377829"
+    },
+    {
+        "city_ascii": "Morwell",
+        "lat": "-38.2333",
+        "lng": "146.4",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036750619"
+    },
+    {
+        "city_ascii": "Moss Vale",
+        "lat": "-34.55",
+        "lng": "150.3833",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036872626"
+    },
+    {
+        "city_ascii": "Mount Barker",
+        "lat": "-35.0667",
+        "lng": "138.85",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036530325"
+    },
+    {
+        "city_ascii": "Mount Barker",
+        "lat": "-34.63",
+        "lng": "117.6669",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036651498"
+    },
+    {
+        "city_ascii": "Mount Eliza",
+        "lat": "-38.189",
+        "lng": "145.092",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036041769"
+    },
+    {
+        "city_ascii": "Mount Evelyn",
+        "lat": "-37.783",
+        "lng": "145.385",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036617292"
+    },
+    {
+        "city_ascii": "Mount Gambier",
+        "lat": "-37.8294",
+        "lng": "140.7828",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036932780"
+    },
+    {
+        "city_ascii": "Mount Isa",
+        "lat": "-20.7261",
+        "lng": "139.4938",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036386100"
+    },
+    {
+        "city_ascii": "Mount Magnet",
+        "lat": "-28.06",
+        "lng": "117.846",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036327720"
+    },
+    {
+        "city_ascii": "Mudgee",
+        "lat": "-32.6125",
+        "lng": "149.5872",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036213564"
+    },
+    {
+        "city_ascii": "Murray Bridge",
+        "lat": "-35.117",
+        "lng": "139.267",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036345943"
+    },
+    {
+        "city_ascii": "Muswellbrook",
+        "lat": "-32.2654",
+        "lng": "150.8885",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036253543"
+    },
+    {
+        "city_ascii": "Nambour",
+        "lat": "-26.6269",
+        "lng": "152.9591",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036804920"
+    },
+    {
+        "city_ascii": "Narangba",
+        "lat": "-27.2015",
+        "lng": "152.9655",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036559054"
+    },
+    {
+        "city_ascii": "Narrabri",
+        "lat": "-30.3317",
+        "lng": "149.7678",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036714493"
+    },
+    {
+        "city_ascii": "Narrogin",
+        "lat": "-32.936",
+        "lng": "117.178",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036221961"
+    },
+    {
+        "city_ascii": "Nelson Bay",
+        "lat": "-32.715",
+        "lng": "152.1511",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036777604"
+    },
+    {
+        "city_ascii": "Nerang",
+        "lat": "-27.9956",
+        "lng": "153.322",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036082899"
+    },
+    {
+        "city_ascii": "Newcastle",
+        "lat": "-32.9167",
+        "lng": "151.75",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036468001"
+    },
+    {
+        "city_ascii": "Newman",
+        "lat": "-23.3539",
+        "lng": "119.7319",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036587511"
+    },
+    {
+        "city_ascii": "Norseman",
+        "lat": "-32.1961",
+        "lng": "121.778",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036257263"
+    },
+    {
+        "city_ascii": "Northam",
+        "lat": "-31.6531",
+        "lng": "116.6661",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036868267"
+    },
+    {
+        "city_ascii": "Nowra",
+        "lat": "-34.8808",
+        "lng": "150.6075",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036984536"
+    },
+    {
+        "city_ascii": "Oatlands",
+        "lat": "-42.3",
+        "lng": "147.3706",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036926323"
+    },
+    {
+        "city_ascii": "Onslow",
+        "lat": "-21.6333",
+        "lng": "115.1167",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036255184"
+    },
+    {
+        "city_ascii": "Orange",
+        "lat": "-33.2833",
+        "lng": "149.1",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036760396"
+    },
+    {
+        "city_ascii": "Ouyen",
+        "lat": "-35.0667",
+        "lng": "142.317",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036764173"
+    },
+    {
+        "city_ascii": "Pakenham",
+        "lat": "-38.0712",
+        "lng": "145.4878",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036063031"
+    },
+    {
+        "city_ascii": "Pannawonica",
+        "lat": "-21.635",
+        "lng": "116.336",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036914573"
+    },
+    {
+        "city_ascii": "Parkes",
+        "lat": "-33.133",
+        "lng": "148.176",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036977270"
+    },
+    {
+        "city_ascii": "Penola",
+        "lat": "-37.3786",
+        "lng": "140.8362",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036121853"
+    },
+    {
+        "city_ascii": "Penrith",
+        "lat": "-33.7511",
+        "lng": "150.6942",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036796452"
+    },
+    {
+        "city_ascii": "Perth",
+        "lat": "-31.9559",
+        "lng": "115.8606",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036178956"
+    },
+    {
+        "city_ascii": "Peterborough",
+        "lat": "-32.9667",
+        "lng": "138.8333",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036104272"
+    },
+    {
+        "city_ascii": "Pine Creek",
+        "lat": "-13.8231",
+        "lng": "131.833",
+        "country": "Australia",
+        "admin_name": "Northern Territory",
+        "id": "1036858004"
+    },
+    {
+        "city_ascii": "Port Augusta",
+        "lat": "-32.4925",
+        "lng": "137.7658",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036945368"
+    },
+    {
+        "city_ascii": "Port Denison",
+        "lat": "-29.275",
+        "lng": "114.9194",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036873405"
+    },
+    {
+        "city_ascii": "Port Douglas",
+        "lat": "-16.4834",
+        "lng": "145.4652",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036053723"
+    },
+    {
+        "city_ascii": "Port Hedland",
+        "lat": "-20.31",
+        "lng": "118.6011",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036509606"
+    },
+    {
+        "city_ascii": "Port Lincoln",
+        "lat": "-34.7322",
+        "lng": "135.8586",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036558150"
+    },
+    {
+        "city_ascii": "Port Macquarie",
+        "lat": "-31.4333",
+        "lng": "152.9",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036051032"
+    },
+    {
+        "city_ascii": "Port Pirie",
+        "lat": "-33.1858",
+        "lng": "138.0169",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036571606"
+    },
+    {
+        "city_ascii": "Portland",
+        "lat": "-38.3333",
+        "lng": "141.6",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036439594"
+    },
+    {
+        "city_ascii": "Proserpine",
+        "lat": "-20.4016",
+        "lng": "148.5808",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036150859"
+    },
+    {
+        "city_ascii": "Quakers Hill",
+        "lat": "-33.7344",
+        "lng": "150.8789",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036046868"
+    },
+    {
+        "city_ascii": "Queanbeyan",
+        "lat": "-35.3533",
+        "lng": "149.2342",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036846465"
+    },
+    {
+        "city_ascii": "Queenstown",
+        "lat": "-42.0667",
+        "lng": "145.55",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036082142"
+    },
+    {
+        "city_ascii": "Quilpie",
+        "lat": "-26.6161",
+        "lng": "144.2675",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036696232"
+    },
+    {
+        "city_ascii": "Ravensthorpe",
+        "lat": "-33.5831",
+        "lng": "120.049",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036878618"
+    },
+    {
+        "city_ascii": "Raymond Terrace",
+        "lat": "-32.7615",
+        "lng": "151.7441",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036570825"
+    },
+    {
+        "city_ascii": "Redlynch",
+        "lat": "-16.8833",
+        "lng": "145.7",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036596124"
+    },
+    {
+        "city_ascii": "Richmond",
+        "lat": "-33.5983",
+        "lng": "150.7511",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036934091"
+    },
+    {
+        "city_ascii": "Richmond",
+        "lat": "-20.7305",
+        "lng": "143.1425",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036156498"
+    },
+    {
+        "city_ascii": "Rochedale",
+        "lat": "-27.6",
+        "lng": "153.133",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036018437"
+    },
+    {
+        "city_ascii": "Rockhampton",
+        "lat": "-23.3781",
+        "lng": "150.5136",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036768986"
+    },
+    {
+        "city_ascii": "Roebourne",
+        "lat": "-20.7667",
+        "lng": "117.15",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036752479"
+    },
+    {
+        "city_ascii": "Roma",
+        "lat": "-26.5733",
+        "lng": "148.7869",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036698836"
+    },
+    {
+        "city_ascii": "Rutherford",
+        "lat": "-32.715",
+        "lng": "151.5317",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036471917"
+    },
+    {
+        "city_ascii": "Sale",
+        "lat": "-38.1",
+        "lng": "147.0667",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036960753"
+    },
+    {
+        "city_ascii": "Scone",
+        "lat": "-32.0483",
+        "lng": "150.8678",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036918224"
+    },
+    {
+        "city_ascii": "Scottsdale",
+        "lat": "-41.1667",
+        "lng": "147.5167",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036807079"
+    },
+    {
+        "city_ascii": "Seymour",
+        "lat": "-37.03",
+        "lng": "145.13",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036919223"
+    },
+    {
+        "city_ascii": "Shepparton",
+        "lat": "-36.3833",
+        "lng": "145.4",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036030548"
+    },
+    {
+        "city_ascii": "Singleton",
+        "lat": "-32.5667",
+        "lng": "151.1697",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036947514"
+    },
+    {
+        "city_ascii": "Smithton",
+        "lat": "-40.844",
+        "lng": "145.12",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036207188"
+    },
+    {
+        "city_ascii": "Somerville",
+        "lat": "-38.226",
+        "lng": "145.177",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036275983"
+    },
+    {
+        "city_ascii": "Southern Cross",
+        "lat": "-31.25",
+        "lng": "119.35",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036931490"
+    },
+    {
+        "city_ascii": "Southport",
+        "lat": "-27.9667",
+        "lng": "153.4",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036417513"
+    },
+    {
+        "city_ascii": "Stawell",
+        "lat": "-37.05",
+        "lng": "142.7667",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036073093"
+    },
+    {
+        "city_ascii": "Streaky Bay",
+        "lat": "-32.8",
+        "lng": "134.2167",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036134944"
+    },
+    {
+        "city_ascii": "Sunbury",
+        "lat": "-37.5811",
+        "lng": "144.7139",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036519781"
+    },
+    {
+        "city_ascii": "Swan Hill",
+        "lat": "-35.3333",
+        "lng": "143.55",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036220501"
+    },
+    {
+        "city_ascii": "Sydney",
+        "lat": "-33.8678",
+        "lng": "151.21",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036074917"
+    },
+    {
+        "city_ascii": "Tamworth",
+        "lat": "-31.0833",
+        "lng": "150.9167",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036233388"
+    },
+    {
+        "city_ascii": "Taree",
+        "lat": "-31.9",
+        "lng": "152.45",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036855717"
+    },
+    {
+        "city_ascii": "Thargomindah",
+        "lat": "-28",
+        "lng": "143.8167",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036793708"
+    },
+    {
+        "city_ascii": "Theodore",
+        "lat": "-24.95",
+        "lng": "150.0833",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036423364"
+    },
+    {
+        "city_ascii": "Three Springs",
+        "lat": "-29.5333",
+        "lng": "115.7617",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036669084"
+    },
+    {
+        "city_ascii": "Tom Price",
+        "lat": "-22.6939",
+        "lng": "117.795",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036464109"
+    },
+    {
+        "city_ascii": "Toowoomba",
+        "lat": "-27.5667",
+        "lng": "151.95",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036765315"
+    },
+    {
+        "city_ascii": "Torquay",
+        "lat": "-38.3333",
+        "lng": "144.3167",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036765457"
+    },
+    {
+        "city_ascii": "Townsville",
+        "lat": "-19.25",
+        "lng": "146.8167",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036500020"
+    },
+    {
+        "city_ascii": "Traralgon",
+        "lat": "-38.1958",
+        "lng": "146.5403",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036938861"
+    },
+    {
+        "city_ascii": "Tumby Bay",
+        "lat": "-34.3667",
+        "lng": "136.1",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036529327"
+    },
+    {
+        "city_ascii": "Tumut",
+        "lat": "-35.3039",
+        "lng": "148.2233",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036777587"
+    },
+    {
+        "city_ascii": "Tweed Heads",
+        "lat": "-28.1833",
+        "lng": "153.55",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036571941"
+    },
+    {
+        "city_ascii": "Ulladulla",
+        "lat": "-35.3486",
+        "lng": "150.4678",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036687220"
+    },
+    {
+        "city_ascii": "Ulverstone",
+        "lat": "-41.1667",
+        "lng": "146.1667",
+        "country": "Australia",
+        "admin_name": "Tasmania",
+        "id": "1036014544"
+    },
+    {
+        "city_ascii": "Victor Harbor",
+        "lat": "-35.55",
+        "lng": "138.6167",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036536547"
+    },
+    {
+        "city_ascii": "Wagga Wagga",
+        "lat": "-35.1189",
+        "lng": "147.3689",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036273188"
+    },
+    {
+        "city_ascii": "Wagin",
+        "lat": "-33.3167",
+        "lng": "117.35",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036851354"
+    },
+    {
+        "city_ascii": "Wallan",
+        "lat": "-37.4167",
+        "lng": "144.9833",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036357414"
+    },
+    {
+        "city_ascii": "Wallaroo",
+        "lat": "-33.9167",
+        "lng": "137.6167",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036743246"
+    },
+    {
+        "city_ascii": "Wangaratta",
+        "lat": "-36.3583",
+        "lng": "146.3125",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036395326"
+    },
+    {
+        "city_ascii": "Warragul",
+        "lat": "-38.15",
+        "lng": "145.9333",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036504084"
+    },
+    {
+        "city_ascii": "Warrnambool",
+        "lat": "-38.3833",
+        "lng": "142.4833",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036291219"
+    },
+    {
+        "city_ascii": "Warwick",
+        "lat": "-28.2152",
+        "lng": "152.0352",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036412726"
+    },
+    {
+        "city_ascii": "Weipa",
+        "lat": "-12.63",
+        "lng": "141.8786",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036501067"
+    },
+    {
+        "city_ascii": "Whyalla",
+        "lat": "-33.0333",
+        "lng": "137.5667",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036961366"
+    },
+    {
+        "city_ascii": "Wilcannia",
+        "lat": "-31.565",
+        "lng": "143.3678",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036134474"
+    },
+    {
+        "city_ascii": "Windorah",
+        "lat": "-25.4206",
+        "lng": "142.6547",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036272226"
+    },
+    {
+        "city_ascii": "Winton",
+        "lat": "-22.3913",
+        "lng": "143.0381",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036031036"
+    },
+    {
+        "city_ascii": "Wodonga",
+        "lat": "-36.1214",
+        "lng": "146.8881",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036788540"
+    },
+    {
+        "city_ascii": "Wollert",
+        "lat": "-37.5833",
+        "lng": "145.0333",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036068932"
+    },
+    {
+        "city_ascii": "Wollongong",
+        "lat": "-34.4331",
+        "lng": "150.8831",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036502269"
+    },
+    {
+        "city_ascii": "Wonthaggi",
+        "lat": "-38.6056",
+        "lng": "145.5917",
+        "country": "Australia",
+        "admin_name": "Victoria",
+        "id": "1036415078"
+    },
+    {
+        "city_ascii": "Woomera",
+        "lat": "-31.1496",
+        "lng": "136.8",
+        "country": "Australia",
+        "admin_name": "South Australia",
+        "id": "1036392822"
+    },
+    {
+        "city_ascii": "Wyndham",
+        "lat": "-15.4825",
+        "lng": "128.123",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036474435"
+    },
+    {
+        "city_ascii": "Yamba",
+        "lat": "-29.44",
+        "lng": "153.3594",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036259324"
+    },
+    {
+        "city_ascii": "Yanchep",
+        "lat": "-31.55",
+        "lng": "115.634",
+        "country": "Australia",
+        "admin_name": "Western Australia",
+        "id": "1036796651"
+    },
+    {
+        "city_ascii": "Yeppoon",
+        "lat": "-23.1288",
+        "lng": "150.7444",
+        "country": "Australia",
+        "admin_name": "Queensland",
+        "id": "1036180170"
+    },
+    {
+        "city_ascii": "Young",
+        "lat": "-34.3",
+        "lng": "148.3",
+        "country": "Australia",
+        "admin_name": "New South Wales",
+        "id": "1036073044"
+    },
+    {
+        "city_ascii": "Yulara",
+        "lat": "-25.2406",
+        "lng": "130.9889",
+        "country": "Australia",
+        "admin_name": "Northern Territory",
+        "id": "1036245584"
+    }
+]
