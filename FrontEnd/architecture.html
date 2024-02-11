@@ -12,9 +12,7 @@
     />
     <!-- custom css -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <!-- Javascript -->
-    <script src="app.js"></script>
-    <script src="weatherForecast.js"></script>
+
   </head>
   <body>
     <!-- Navbar -->
@@ -98,25 +96,29 @@
         <div class="section-title">
           <h2>Weather Forecast</h2>
         </div>
-        <div class="UserSelections">
-          <input 
-            type="text"
-            id="cityInput"
-            placeholder="Enter city name"
-            list="cityList">
-            <datalist id="cityList">
-              <!-- Options will be added here dynamically -->
-            </datalist>
-          <!-- <input
-            type="text"
-            id="cityInput"
-            placeholder="Enter city name"
-            onkeyup="filterCities()"
-          />
-          <div id="suggestions" style="display: none">
-            <select id="cityDropdown">
-              -- Filtered options will be added here dynamically -->
-            <!-- </select> -->
+        <div class="cityDropdown">
+          <P>5 day forecast for  
+            <input 
+              type="text"
+              id="cityInput"
+              placeholder="Enter city name"
+              list="cityList">
+              <datalist id="cityList">
+                <!-- Options will be added here dynamically -->
+              </datalist>
+              in the style of  
+              <select id="styleDropdown">
+                  <option value="Friendly weatherman">Friendly weatherman</option>
+                  <option value="Tony Soprano">Tony Soprano</option>
+                  <option value="British Upper Class Twit">British Upper Class Twit</option>
+                  <option value="Cheech Marin">Cheech Marin</option>
+                  <option value="Abraham Lincoln">Abraham Lincoln</option>
+              </select>
+                        :      
+              <button id="submitBtn">Get Forecast</button>
+          </P>
+            <div id="forecastResult">
+            </div>
           </div>
         </div>
       </div>
@@ -132,6 +134,8 @@
       </div>
     </footer>
     <!-- end of footer -->
+    <!-- Javascript -->
     <script src="app.js"></script>
+    <script src="weatherForecast.js"></script>
   </body>
 </html>
