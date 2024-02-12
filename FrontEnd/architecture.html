@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>PK's Online Adventure || Technical</title>
     <!-- font-awesome -->
-    <link href="./fontawesome-free-6.5.1-web/css/all.min.css" rel="stylesheet" />
+    <link
+      href="./fontawesome-free-6.5.1-web/css/all.min.css"
+      rel="stylesheet"
+    />
     <!-- custom css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Navbar -->
     <!-- nav button -->
-    <span class="nav-btn" id="nav-btn"> 
+    <span class="nav-btn" id="nav-btn">
       <i class="fas fa-bars"></i>
     </span>
     <!-- end nav button -->
@@ -26,7 +29,9 @@
       <ul class="nav-items">
         <li><a href="index.html" class="nav-link">home</a></li>
         <li><a href="resume.html" class="nav-link">resume</a></li>
-        <li><a href="architecture.html" class="nav-link">technical detail</a></li>
+        <li>
+          <a href="architecture.html" class="nav-link">technical detail</a>
+        </li>
         <li><a href="blog.html" class="nav-link">blog</a></li>
       </ul>
     </nav>
@@ -34,8 +39,7 @@
     <!-- Header -->
     <header class="header-architecture">
       <div class="banner">
-        <h1>Technical Stuff
-        </h1>
+        <h1>Technical Stuff</h1>
       </div>
     </header>
     <!-- End of Header -->
@@ -43,38 +47,101 @@
     <!-- Content Divider -->
     <div class="content-divider"></div>
     <!-- End of Content Divider -->
-     <!-- Section title -->
+    <!-- Section title -->
     <section class="architecture-phase1">
-    <div class="section-center clearfix">
-       <div class="section-title">
-         <h2>Cloud Resume Challenge Solution Components</h2>
-       </div>
-         <ul>High level components:
-          <li>Write the HTML/CSS code for the website (based on a project from John Smilga's <a href="https://www.udemy.com/share/101A483@n8hnTgvNlCIZEY6RlytAjmNgbx692bUQsj5yKeORHPDwRh1Y8QIrpC0l-iBgW0na/" target="_blank">"HTML&CSS Tutorial and Projects Course"</a>)</li>
-          <li>Domain name is registerd with Cloudflare (DNS services only - no proxy) DNSSEC enabled</li>
-          <li>Azure storage account created and configured for delivery of static web content</li>
-          <li>Visitor Counter app written in Python, deployed as an Azure Function.</li>
+      <div class="section-center clearfix">
+        <div class="section-title">
+          <h2>Cloud Resume Challenge Solution Components</h2>
+        </div>
+        <ul>
+          High level components:
+          <li>
+            Write the HTML/CSS code for the website (based on a project from
+            John Smilga's
+            <a
+              href="https://www.udemy.com/share/101A483@n8hnTgvNlCIZEY6RlytAjmNgbx692bUQsj5yKeORHPDwRh1Y8QIrpC0l-iBgW0na/"
+              target="_blank"
+              >"HTML&CSS Tutorial and Projects Course"</a
+            >)
+          </li>
+          <li>
+            Domain name is registerd with Cloudflare (DNS services only - no
+            proxy) DNSSEC enabled
+          </li>
+          <li>
+            Azure storage account created and configured for delivery of static
+            web content
+          </li>
+          <li>
+            Visitor Counter app written in Python, deployed as an Azure
+            Function.
+          </li>
           <li>CosmosDB database to store Visitor Counter app data.</li>
           <li>Azure Key Vault to store access keys.</li>
           <li>Github repository for source code control.</li>
           <li>Visual Studio Code with Azure/Github extensions.</li>
-         </ul>
-         <img src="./images/azresumechallenge.png" alt="Cloud Resume Challenge Solution Components">
+        </ul>
+        <img
+          src="./images/azresumechallenge.png"
+          alt="Cloud Resume Challenge Solution Components"
+        />
       </div>
     </section>
-
-  
-     <!-- footer -->
-      <footer class="footer">
-       <div class="section-center">
-          <h4 class="footer-text">
-           &copy;<span >2023</span>
-           <span>PK's Online Adventure</span>
-           all rights reserved
-         </h4>
-       </div>
-      </footer>
-     <!-- end of footer -->
-     <script src="app.js"></script>
-    </body>
-  </html>
+    <!-- Content Divider -->
+    <div class="content-divider"></div>
+    <!-- End of Content Divider -->
+    <section class="weatherForecast">
+      <div class="section-center clearfix">
+        <div class="section-title">
+          <h2>Weather Forecast</h2>
+        </div>
+        <div class="cityDropdown">
+          <p>
+            5 day forecast for
+            <input
+              type="text"
+              id="cityInput"
+              placeholder="Enter city name"
+              list="cityList"
+            />
+            <datalist id="cityList">
+              <!-- Options will be added here dynamically -->
+            </datalist>
+            in the style of
+            <select id="styleDropdown">
+              <option value="A Friendly Weatherman">
+                A Friendly Weatherman
+              </option>
+              <option value="A Texas Cowboy">A Texas Cowboy</option>
+              <option value="A British Upper Class Twit">
+                A British Upper Class Twit
+              </option>
+              <option value="Cheech Marin">An LA Stoner</option>
+              <option value="A Pirate">A Pirate</option>
+            </select>
+            :
+            <button id="submitBtn">Get Forecast</button>
+          </p>
+        </div>
+        <div id="progressBarContainer" class="progressBarContainer">
+          <div id="progressBar" class="progressBar"></div>
+        </div>
+        <div id="forecastResult" class="forecastResult"></div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <h4 class="footer-text">
+          &copy;<span>2023</span>
+          <span>PK's Online Adventure</span>
+          all rights reserved
+        </h4>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <!-- Javascript -->
+    <script src="app.js"></script>
+    <script src="weatherForecast.js"></script>
+  </body>
+</html>
