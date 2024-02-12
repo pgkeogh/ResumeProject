@@ -50,9 +50,10 @@ function startProgressBar() {
     console.error("Progress bar element not found!");
     return; // Exit the function if the progress bar doesn't exist
   }
-  progressBar.style.width = "1%"; // Reset/start progress bar
+  // progressBar.style.width = "1%"; // Reset/start progress bar
   var width = 1;
-  var interval = 50; // Adjust this to control how fast the progress bar moves
+  var interval = 100; // Adjust this to control how fast the progress bar moves
+  console.log("bar set");
 
   var progressInterval = setInterval(function () {
     if (width >= 100) {
