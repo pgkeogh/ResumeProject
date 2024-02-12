@@ -693,6 +693,10 @@ Contact
   margin: 10px 10px;
   /* text-align: left; */
 }
+.forecastResult {
+  background-color: var(--clr-primary);
+}
+
 .progressBarContainer {
   width: 100%;
   background-color: var(--clr-grey-5);
