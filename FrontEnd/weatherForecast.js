@@ -1,7 +1,9 @@
 let cityDataMap = {}; // Map to store city display names and their data
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("WeatherForecast/auscities.json")
+  fetch(
+    "https://crcstoragea.blob.core.windows.net/$web/weatherForecast/auscities.json"
+  )
     .then((response) => response.json())
     .then((data) => {
       data.forEach((city) => {
