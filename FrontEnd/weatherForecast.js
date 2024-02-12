@@ -34,7 +34,7 @@ function filterCities() {
 
   // Filter and add city names to the datalist based on input
   Object.keys(cityDataMap).forEach((displayName) => {
-    if (displayName.toLowerCase().includes(input)) {
+    if (displayName.toLowerCase().startsWith(input)) {
       var option = document.createElement("option");
       option.value = displayName; // Use the display name for the option value
       dataList.appendChild(option);
@@ -42,8 +42,50 @@ function filterCities() {
   });
 }
 
+// ****PROGRESS BAR FUNCTIONS****
+function startProgressBar() {
+  console.log("starting progress bar");
+  var progressBar = document.getElementById("progressBar");
+  if (!progressBar) {
+    console.error("Progress bar element not found!");
+    return; // Exit the function if the progress bar doesn't exist
+  }
+  progressBar.style.width = "1%"; // Reset/start progress bar
+  var width = 1;
+  var interval = 50; // Adjust this to control how fast the progress bar moves
+
+  var progressInterval = setInterval(function () {
+    if (width >= 100) {
+      clearInterval(progressInterval);
+    } else {
+      width++;
+      progressBar.style.width = width + "%";
+    }
+  }, interval);
+
+  // Store the interval ID so it can be cleared later
+  progressBar.setAttribute("data-interval-id", progressInterval);
+}
+
+function completeProgressBar() {
+  var progressBar = document.getElementById("progressBar");
+  progressBar.style.width = "100%"; // Immediately set to 100%
+
+  // Clear the interval to stop the progress bar
+  var intervalId = progressBar.getAttribute("data-interval-id");
+  if (intervalId) {
+    clearInterval(intervalId);
+  }
+
+  // Optionally, hide the progress bar after a delay or transition
+  setTimeout(function () {
+    progressBar.style.width = "0%"; // or hide the container
+  }, 1000); // Adjust delay as needed
+}
+
 // Handle submit button click
 document.getElementById("submitBtn").addEventListener("click", function () {
+  startProgressBar();
   const cityInputValue = document.getElementById("cityInput").value;
   const cityData = cityDataMap[cityInputValue];
 
@@ -62,7 +104,6 @@ document.getElementById("submitBtn").addEventListener("click", function () {
     LON: cityData.LON,
     STYLE: conversationStyle,
   };
-  console.log(cityData.LAT);
   console.log(payload);
 
   // Trigger the Azure Function
@@ -90,11 +131,12 @@ document.getElementById("submitBtn").addEventListener("click", function () {
         throw new TypeError("Oops, we haven't got JSON!");
       }
       return response.json();
-      // return response.text();
     })
     .then((data) => {
       // Display the forecast
       document.getElementById("forecastResult").textContent = data.text;
+      // Remove progress bar
+      completeProgressBar();
     })
     .catch((error) => console.error("Error:", error));
 });

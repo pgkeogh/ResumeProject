@@ -12,7 +12,6 @@
     />
     <!-- custom css -->
     <link rel="stylesheet" href="./css/styles.css" />
-
   </head>
   <body>
     <!-- Navbar -->
@@ -97,28 +96,35 @@
           <h2>Weather Forecast</h2>
         </div>
         <div class="cityDropdown">
-          <P>5 day forecast for  
-            <input 
+          <p>
+            5 day forecast for
+            <input
               type="text"
               id="cityInput"
               placeholder="Enter city name"
-              list="cityList">
-              <datalist id="cityList">
-                <!-- Options will be added here dynamically -->
-              </datalist>
-              in the style of  
-              <select id="styleDropdown">
-                  <option value="Friendly weatherman">Friendly weatherman</option>
-                  <option value="Tony Soprano">Tony Soprano</option>
-                  <option value="British Upper Class Twit">British Upper Class Twit</option>
-                  <option value="Cheech Marin">Cheech Marin</option>
-                  <option value="Abraham Lincoln">Abraham Lincoln</option>
-              </select>
-                        :      
-              <button id="submitBtn">Get Forecast</button>
-          </P>
-            <div id="forecastResult">
-            </div>
+              list="cityList"
+            />
+            <datalist id="cityList">
+              <!-- Options will be added here dynamically -->
+            </datalist>
+            in the style of
+            <select id="styleDropdown">
+              <option value="A Friendly Weatherman">
+                A Friendly Weatherman
+              </option>
+              <option value="A Texas Cowboy">A Texas Cowboy</option>
+              <option value="A British Upper Class Twit">
+                A British Upper Class Twit
+              </option>
+              <option value="Leopold Bloom">A James Joyce Hero</option>
+              <option value="A Pirate">A Pirate</option>
+            </select>
+            :
+            <button id="submitBtn">Get Forecast</button>
+          </p>
+          <div class="forecastResult" id="forecastResult"></div>
+          <div class="progressBarContainer" id="progressBarContainer">
+            <div class="progressBar" id="progressBar"></div>
           </div>
         </div>
       </div>
