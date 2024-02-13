@@ -316,6 +316,46 @@
           </div>
         </article>
         <!-- end of single card -->
+ <!-- single card -->
+        <article class="blog-card">
+          <!-- blog info -->
+          <div class="blog-info">
+            <h3>New Projects and ChatGPT/GPT Plus</h3>
+            <h4>14 February 2024</h4>
+              <h5>The Weather Forecast Project</h5>
+              <p>
+              With the Resume project more or less complete, I started to look for ideas as to how I could utilise the Azure platform, and expand my very primitive coding skills. One of the courses I was taking demonstrated how to gather weather data from the OpenWeatherMaps API. My thinking was to take that raw data, turn it into a prompt and have OpenAI's API generate a forecast based on that data. This would give me experience gathering data from multiple sources programmatically, incorporate some data transformation activities, and of course make use of OpenAI's API. Building on the resume project, I would then convert this code to an Azure Function, and make use of the Key Vault to keep my precious API keys out of my code.
+              <br>
+              <br>
+                <UL> Some of the issues I faced, and learnings taken include:
+                  <li>LOGGING! - a Udemy course by <a href="https://www.udemy.com/user/steveavon/">Steve Avon</a> gave me a great comprehensive model to implement for logging which was a godsend. Since Azure integrates with the Python logging module all my logging could be retained from local deployment through to production deployment as an Azure Function. I almost feel like a real app guy....</li>
+                  <li>Variables - Populating variables based on user input, passing variables from frontend to backend, losing track of what I called them, where I put them....</li>
+                  <li>Data types and structures - Extracting and processing a raw dump of data collected via the OpenWeatherMap API, dealing with lists, dictionaries, lists of dictionaries, and landing on a text structure that that OpenAI would accept. This was resolved through a lot of trial and error, iterating with my GPTPlus subscription until "we" got it right.</li>
+                  <li>Format of response from OpenAI - the standard response is a Python string, which after a bit of fiddling was JSONified to be returned to web page. The OpenAI API does have the option to return its response in JSON format, which it did quite well - taking the single string of text I was after and reverting back to a dictionary very similar to the one used to create the prompt! So I didn't use that feature..... </li>
+                  <li>Additional Key Vault learnings - the CosmosDB service natively interacts with the Azure Key Vault, so for the Visitor Counter app in the first project I could simply create an environment variable and populate it with the URL associated with the CosmosDB secret in the Vault. Unfortunately, non Azure APIs don't play that way. So, additional code was required to pull the API keys from the Vault and package them up with the request to OpenWeatherMaps and OpenAI.</li>
+                </UL>
+              </p>
+              <br>
+              <br>
+              <h5>ChatGPT and GPTPlus</h5>
+              <p>
+              I should mention that I have recently picked up a new best (non-human) friend - a GPTPlus subscription. The pros and cons of LLMs and AI assistants has been flogged to death elsewhere. What I can share is the impact its had on me, my attitude and thinking.
+              <br>
+              <br>
+              Its fair to say that towards the end of my time with CSC I had fallen into the trap of saying "NO, and this is why" to any left field or new idea. Maybe a bit of outsourcing PTSD..... Anyway, being completely honest, that thinking was still lurking in the shadows of my brain when I commenced this journey back to industry. After playing with GPTPlus every day now for two months I find myself saying "why not" more often, and "this can't be done" less and less. By learning to ask the right questions, iterating through problems with the GPT, I'm finding that at this stage in my learning, the main limitation is my own imagination and awareness of what's actually possible. That is a fundamental shift in my perception.
+              <br>
+              <br>
+              For example, my next project will involve correlating a decade worth of posts from various stock market subreddits with the share price of the relevant stock or commodity, to ascertian whether there is any predictive value in keeping tabs on those shouty Reddit and Facebook groups over the short/medium/long term. Without GPTPlus, I'd be viewing a project like this as aspirational - hopefully after a couple of years I'd have the syntax burned into my brain to make such a task a reality. And yet right now I've already sourced the data from Reddit and am in the process of manipulating and cleansing the data. Given my experience with trading futures this is something that I thought would be really useful, but nigh on impossible for one guy with a laptop. That said - the data set is huuuuuuuuuuuuge - I suspect my Azure bill is going to be scary.....
+              <br>
+              <br>
+              I do not wish to represent myself as something I'm not at this point in the journey. I haven't suddenly gained a decade of coding experience. But I can explain every line of code submitted to Github. At the end of the day, the onus is on the individual, on me, to make sure I am always learning from the GPT, not just leaning on it. I do this by ensuring GPTPlus comments all code, and explains every line to me. I also include various phrases in the prompt such as 'best practice', 'most secure', and I also ask for alternative approaches. It does get it wrong sometimes - its still pushing completion methods that OpenAI themselves have actually deprecated! As long as I remember this, and don't do a Michael Cohen or a Channel 9, at a minimum it will fast track my education.
+              <br>
+              <br>
+              Stay tuned for the results of my stockreddit data analysis extravaganza!
+              </p>
+          </div>
+        </article>
+        <!-- end of single card -->
       </div>
     </section>
 
