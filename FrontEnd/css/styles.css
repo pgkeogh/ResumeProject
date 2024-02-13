@@ -715,6 +715,29 @@ Contact
   opacity: 75%;
   transition: width 0.5s ease;
 }
+.weatherForecast ul {
+  font-style: bold;
+  list-style-type: none;
+  /* max-width: 20rem; */
+}
+.weatherForecast li {
+  font-style: normal;
+  font-size: 0.9rem;
+  list-style-type: circle;
+  color: var(--clr-grey-5);
+  margin: 10px 10px;
+  /* text-align: left; */
+}
+.weatherForecast_img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+}
+.weatherForecast_process_img {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+}
 
 /* blog page */
 .header-blog {

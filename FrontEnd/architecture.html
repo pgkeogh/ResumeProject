@@ -93,8 +93,9 @@
     <section class="weatherForecast">
       <div class="section-center clearfix">
         <div class="section-title">
-          <h2>Weather Forecast</h2>
+          <h2>Weather Forecast Project</h2>
         </div>
+        <br>
         <div class="cityDropdown">
           <p>
             5 day forecast for
@@ -127,6 +128,42 @@
           <div id="progressBar" class="progressBar"></div>
         </div>
         <div id="forecastResult" class="forecastResult"></div>
+        <br>
+        <br>
+        <br>
+        <h4>Project Summary</h4>
+        <br>
+        <p>To get a 5 day weather forecast these days one can simply enter a prompt in ChatGPT or Copilot....... but where's the fun in that??
+        <br>
+        <ul>I defined the scope of this project in order to::
+          <li>Gain further experience with Azure Functions and other Azure services (e.g. Key Vault, storage)</li>
+          <li>Gain experience in working with APIs, specifically OpenAi</li>
+          <li>Expose myself to more complex Python and Javascript concepts, specifically passing stuff between front and backend, data handling and security</li>
+        </ul>
+        <ul>The high level components making up this solution include:
+          <li>My static website, hosted in Azure blob storage, providing javascript capabilities</li>
+          <li>Azure Functions, using Python 3.11</li>
+          <li>Azure Key Vault</li>
+          <li>OpenWeatherMaps free API </li>
+          <li>OpenAI API </li>
+          <li>Extract from SimpleMaps WorldCities data, basic v1.76 </li>
+        </ul>
+        <br>
+        The deployment model for this app looks something like this:
+        <img src="./images/weatherforecast_deployment.png" class="weatherForecast_img" alt="weatherForecast_components">
+        <br>
+        <br>
+        The end to end process flow looks roughly like this:
+        <img src="./images/weatherforecast_process.png" class="weatherForecast_process_img" alt="weatherForecast process">
+        <br>
+        <br>
+        <br>
+        <br>
+        So.... pick a city, pick a voice, be patient and see what comes back!
+        <br>
+        <br>
+        </p>
+
       </div>
     </section>
     <!-- footer -->
