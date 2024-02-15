@@ -9,12 +9,14 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 def AzResumeTrigger(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
+    # these variables point to environment variables section of the Azure Function configuration in the portal
     endpoint = os.environ.get("CosmosEndpoint")
     account_key = os.environ.get("CosmosKey")
 
     if not endpoint or not account_key:
         raise ValueError("CosmosEndpoint and CosmosKey must be set as environment variables.")
   
+    # Query cosmosdb table for item with ID attribute of 1 (count). Increments the count by 1, returns the response
     database_name = "PKsVisitorCounter"
     container_name = "VisitorCounterContainer"
     client = CosmosClient(endpoint, account_key)
