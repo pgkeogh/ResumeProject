@@ -738,6 +738,11 @@ Contact
   width: 100%;
   height: auto;
 }
+.reddit_viz {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+}
 
 /* blog page */
 .header-blog {

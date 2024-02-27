@@ -316,7 +316,7 @@
           </div>
         </article>
         <!-- end of single card -->
- <!-- single card -->
+        <!-- single card -->
         <article class="blog-card">
           <!-- blog info -->
           <div class="blog-info">
@@ -328,7 +328,7 @@
               <br>
               <br>
                 <UL> Some of the issues I faced, and learnings taken include:
-                  <li>LOGGING! - a Udemy course by <a href="https://www.udemy.com/user/steveavon/">Steve Avon</a> included a comprehensive model to implement which was a revelation. Since Azure integrates with the Python logging module all my logging could be retained from local deployment through to production deployment as an Azure Function. I almost feel like a real app guy....</li>
+                  <li>LOGGING! - a Udemy course by <a href="https://www.udemy.com/user/steveavon/" target = "_blank">Steve Avon</a> included a comprehensive model to implement which was a revelation. Since Azure integrates with the Python logging module all my logging could be retained from local deployment through to production deployment as an Azure Function. I almost feel like a real app guy....</li>
                   <li>Variables - Populating variables based on user input, passing variables from frontend to backend, losing track of what I called them, where I put them....</li>
                   <li>Data types and structures - Extracting and processing a raw dump of data collected via the OpenWeatherMap API, dealing with lists, dictionaries, lists of dictionaries, and landing on a text structure that that OpenAI would accept. This was resolved through a lot of trial and error, iterating with my GPTPlus subscription until "we" got it right.</li>
                   <li>Format of response from OpenAI - the API's JSON response format was unhelpful, so more Python code required to convert its standard response format (Python string) into a JSON file for presentation through the webpage. </li>
@@ -353,6 +353,62 @@
               <br>
               Stay tuned for the results of my stockreddit data analysis extravaganza!
               </p>
+          </div>
+        </article>
+        <!-- end of single card -->
+        <!-- single card -->
+        <article class="blog-card">
+          <!-- blog info -->
+          <div class="blog-info">
+            <h3>New Projects - Data Analytics</h3>
+            <h4>27 February 2024</h4>
+              <h5>Data Project 1 - Reddit, COVID and Gamestop</h5>
+              <p>
+              My initial goal for this project was to determine whether there was any value in trawling through stock-related social media posts, in order to identify or even predict large moves up or down of the mentioned stocks. While this is still the end goal, another story emerged as I started to look at the high-level data, that I thought was worth documenting. So consider this as part 1 of 2.
+              <br>
+              <br>
+              The approach was to plot the number of comments or posts on a social media platform against actual market prices, to see whether there was any correlation or predictive quality between retail investor sentiment expressed through social media, and actual stock or market prices. I would start at the highest level (total posts from a popular social media platform plotted against the S&P500), and then drill down into specific stocks. To continue the theme of exposing myself to the latest Cloud services, I would present this data through Tableau Public.
+              <br>
+              <br>
+              My first task was to gather as much historical data from social media sources as I could, as cheaply as possible. This ruled out using X, as Elon wants to charge $100 a month for access to his API to help send him to Mars or something. Reddit make their API available to all for free, but with limitations as to how much data can be accessed. Fortunately, a Reddit group called r/pushshift had been archiving ALL (yes, ALL, even the dodgy ones....) subreddits since 2008 and storing them on their site <a href="https://academictorrents.com/" target = "_blank">Academic Torrents.</a> As these archives are quite large, one member <a href="https://github.com/Watchful1/PushshiftDumps" target = "_blank">(Watchful1)</a>> has also created a bunch of Python scripts to manipulate and extract data without needing a large server to do so (big thanks!). After some mods to these scripts I ended up with a csv file with the count of all comments from 20 or so stock-related subreddits dating back to 2008.
+              <br>
+              <br>
+                <ul>When this data was plotted over time, three distinct phases were observed:
+                  <li>2008 - 2019: Steady growth in activity, roughly doubling every year</li>
+                  <li>Feb-Mar 2020: A 900% increase in activity in two months, with this level sustained over the remaining year</li>
+                  <li>Jan 2021: A huge spike in activity, with over 9M comments in one week</li>
+                </ul>
+              </p>
+              <br>
+              <p>
+              The next step was to overlay this data with the price data from the S&P500, to see if these phases were in any way related to market action. Through my trading activity I already had historical prices for stocks and stock market indexes going back several decades.
+              <br>
+              <br>
+              The first period you would describe as uneventful - public interest steadily returning to the stock market after the pain of the GFC.
+              <br>
+              <br>
+              The second phase coincided exactly with one of the most traumatic periods in recent history - the COVID pandemic, and specifically, the stockmarket crash that it precipitated. The S&P500 peaked February 2nd, and then lost 36% of its value before bottoming March 23rd. Comments in the stock related subreddits exploded from 300k total for   he month of December 2019, to 2.8M for the month of March 2020, remaining above 1.3M per month for the rest of the year. By this stage, r/wallstreetbets had over 1.2M members.
+              <br>
+              <br>
+              Fear, layoffs, furloughs, capital destruction, lockdowns and time on our hands proved the perfect honeypot for people wanting to protect their wealth, find alternative sources of income, and probably most importantly, feel connected to something. Add to that a burgeoning Robin Hood investor mentality, a desire to "stick it to the man", and we now have a very large number of emotive speculators in one spot needing an opportunity to express themselves.
+              <br>
+              <br>
+              However, looking at the S&P500 chart, there is nothing of note in the price action that would suggest an almost tenfold increase in activity going into January 2021. No spike, no crash, just normal market action. So what gives? A quick Google search for anything interesting happening in the stock market on the date of 21 Jan 2021 revealed the answer (and also illustrated how I personally had buried all memory of that period!!!).
+              <br>
+              <br>
+              Back in 2021 a bricks-and-mortar video game store called Gamestop (NYSE:GME) made the news by gaining 2,400% in just over a month. The driver behind this price move was - surprise surprise - a Reddit community called r/wallstreetbets - a collection of individual online retail investors that somehow banded together to force the share price to the moon in spite of the best efforts of the larger hedge funds. I won't go into the back story here - its reasonably well covered in the Netfilx docuseries <a href="https://www.imdb.com/title/tt14036920/" target = "_blank">Eat The Rich: The Gamestop Saga.</a>
+              <br>
+              <br>
+              So... while searching for an edge in the stock market, I (completely inadvertantly!) ended up showing not only the effect of the r/wallstreetbets phenomenon, but also its most significant cause - the COVID pandemic gathering a large number of emotively charged humans together in a short period of time. Who says data is dull? 🙂
+              <br>
+              <br>
+                <UL> Some of the issues I faced, and learnings taken include:
+                  <li>Large data sets should not be processed on a laptop. There is a reason why servers exist! As stated above, a big thanks to watchful1 for those Python scripts - I was able to extract what I needed without having to load up the entire archive into Jupyter Notebooks or Excel. I did try, and the results were....humourous!</li>
+                  <li>As this is my first exposure to Tableau, its pretty basic with respect to data anaylsys. In reality I've only got three fields that I'm plotting here, so I'm not making much use of its BI capabilities. I also had some lovely annotations linking the different elements that helped the narrative a lot, thanks to an extension that.... disappeared when I tried to save up to Tableau Public. The developers do say it works best with the Server installation of Tableau, so I guess you get what you pay for 🙂</li>
+                </UL>
+              </p>
+              <br>
+              <br>
           </div>
         </article>
         <!-- end of single card -->
