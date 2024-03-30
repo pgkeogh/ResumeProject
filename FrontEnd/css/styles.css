@@ -70,6 +70,7 @@ h4 {
 }
 h5 {
   font-size: 0.875rem;
+  font-style: italic;
 }
 p {
   margin-bottom: 1.25rem;
@@ -399,14 +400,14 @@ Services
 @media screen and (min-width: 768px) {
   .service-card {
     float: left;
-    width: 45%;
+    width: 50%;
     margin-right: 5%;
   }
 }
 @media screen and (min-width: 992px) {
   .service-card {
-    width: 30%;
-    margin-right: 3.333%;
+    width: 45%;
+    margin-right: 5%;
   }
 }
 .service-img-container {
@@ -448,7 +449,9 @@ Contact
   font-weight: 400;
 }
 .contact-text {
-  text-transform: uppercase;
+  text-decoration-line: none;
+  text-transform: lowercase;
+  color: var(--clr-grey-1);
 }
 .contact-form {
   background: var(--clr-white);
@@ -677,8 +680,41 @@ Contact
       url(../images/architecture.jpg) center/cover no-repeat fixed;
   }
 }
-.architecture-phase1 {
+.pageNavigation {
+  background: var(--clr-white);
+}
+.pageNavigation ul {
+  font-style: italic;
+  list-style-type: none;
+  /* max-width: 20rem; */
+}
+.pageNavigation li {
+  font-style: normal;
+  font-size: 1rem;
+  list-style-type: circle;
+  color: var(--clr-primary);
+  margin: 10px 10px;
+  /* text-align: left; */
+}
+.architectureIntro {
   background: var(--clr-grey-10);
+}
+.architectureIntro ul {
+  font-style: italic;
+  list-style-type: none;
+  /* max-width: 20rem; */
+}
+.architectureIntro li {
+  font-style: normal;
+  font-size: 0.9rem;
+  list-style-type: circle;
+  color: var(--clr-grey-5);
+  margin: 10px 10px;
+  /* text-align: left; */
+}
+
+.architecture-phase1 {
+  background: var(--clr-white);
 }
 .architecture-phase1 ul {
   font-style: italic;
@@ -706,7 +742,7 @@ Contact
   width: 80%;
   /* border: 0.5px solid var(--clr-grey-5); */
   padding: 8px 12px;
-  background-color: var(--clr-white);
+  background-color: var(--clr-grey-10);
 }
 .progressBar {
   width: 0%;
@@ -714,6 +750,9 @@ Contact
   background-color: var(--clr-primary-light);
   opacity: 75%;
   transition: width 0.5s ease;
+}
+.weatherForecast {
+  background: var(--clr-grey-10);
 }
 .weatherForecast ul {
   font-style: bold;
@@ -738,10 +777,42 @@ Contact
   width: 100%;
   height: auto;
 }
+.DataAnalysis1 {
+  background: var(--clr-white);
+}
+.DataAnalysis1 ul {
+  font-style: italic;
+  list-style-type: none;
+  /* max-width: 20rem; */
+}
+.DataAnalysis1 li {
+  font-style: normal;
+  font-size: 0.9rem;
+  list-style-type: circle;
+  color: var(--clr-grey-5);
+  margin: 10px 10px;
+  /* text-align: left; */
+}
 .reddit_viz {
   max-width: 900px;
   width: 100%;
   height: auto;
+}
+.DataAnalysis2 {
+  background: var(--clr-grey-10);
+}
+.DataAnalysis2 ul {
+  font-style: italic;
+  list-style-type: none;
+  /* max-width: 20rem; */
+}
+.DataAnalysis2 li {
+  font-style: normal;
+  font-size: 0.9rem;
+  list-style-type: circle;
+  color: var(--clr-grey-5);
+  margin: 10px 10px;
+  /* text-align: left; */
 }
 
 /* blog page */

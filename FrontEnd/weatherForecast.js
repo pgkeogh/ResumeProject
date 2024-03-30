@@ -88,14 +88,18 @@ function completeProgressBar() {
 
 // Handle submit button click
 document.getElementById("submitBtn").addEventListener("click", function () {
-  startProgressBar();
   const cityInputValue = document.getElementById("cityInput").value;
   const cityData = cityDataMap[cityInputValue];
 
   if (!cityData) {
     console.error("Selected city data not found.");
+    // Display an alert to the user
+    alert(
+      "Error: The selected city is not valid. Please select a city from the list."
+    );
     return;
   }
+  startProgressBar();
 
   const conversationStyle = document.getElementById("styleDropdown").value;
   document.getElementById("forecastResult").textContent =

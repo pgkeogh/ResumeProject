@@ -32,38 +32,29 @@
         <li>
           <a href="architecture.html" class="nav-link">projects</a>
         </li>
-        <li><a href="blog.html" class="nav-link">blog</a></li>
       </ul>
     </nav>
     <!-- End of Navbar -->
     <!-- Header -->
-    <header class="header-architecture">
+    <header class="header-architecture" id="top">
       <div class="banner">
         <h1>Technical Stuff</h1>
       </div>
     </header>
     <!-- End of Header -->
 
-        <!-- Content Divider -->
+    <!-- Content Divider -->
     <div class="content-divider"></div>
     <!-- End of Content Divider -->
-        <!-- Content Divider -->
-    <div class="content-divider"></div>
-    <!-- End of Content Divider -->
-    <!-- Section title -->
-    <section class="architecture-phase1">
+    <section class="pageNavigation">
       <div class="section-center clearfix">
-        <div class="section-title">
-          <h2>Introduction</h2>
-        </div>
-        <p>
-        The dynamic nature of the IT industry requires a commitment to continuous learning and adaptation.
-        <br>
-        <br>
-        As I am returning to the IT industry after a lenghty hiatus, my priority has been to bridge the gap between my foundational knowledge and the latest technical services and offerings. I therefore embarked on a self-directed journey to explore the latest in Cloud computing and Artificial Intelligence services. The projects listed below illustrate this journey, showcasing my hands-on approach to acquiring new skills and applying them in practical scenarios. 
-        <br>
-        <br>
-        As well as refreshing my technical knowledge they also reinforced my problem-solving capabilities, preparing me for the challenges of an IT Architect or Business Analyst.
+        <h2>On This Page:</h2>
+          <ul>
+            <li><a href="#architecture-phase1">Cloud Resume Challenge</a></li>
+            <li><a href="#weatherForecast">Weather Forecast with OpenAI and openweathermaps.org</a></li>
+            <li><a href="#DataAnalysis1">Tableau - Reddit,Gamestop and COVID</a></li>
+            <li><a href="#DataAnalysis2">Tableau - National Study for Mental Health and Wellbeing</a></li>
+          </ul>
         </p>
       </div>
     </section>
@@ -71,7 +62,33 @@
     <div class="content-divider"></div>
     <!-- End of Content Divider -->
     <!-- Section title -->
-    <section class="architecture-phase1">
+    <section class="architectureIntro" id="architectureIntro">
+      <div class="section-center clearfix">
+        <div class="section-title">
+          <h2>Introduction</h2>
+        </div>
+        <h5>
+        The dynamic nature of the IT industry requires a commitment to continuous learning and adaptation.
+        </h5>
+        <br>
+        <p>
+          I made the decision to get back into the IT game around June 2023. As I am returning to the IT industry after a lengthy hiatus, my priority has been to bridge the gap between my foundational knowledge and the latest technical services and offerings. I therefore embarked on a self-directed journey to explore the latest in Cloud computing and Artificial Intelligence services. 
+          <br><br>
+          My first activity was to complete the ISC2 CC certification and complete the ISC2 CCSP exam. Both provided a good overview of the state of play, at least from a risk, regulatory and governance perspective. I then crammed my head full of over 200 acronyms and service descriptions to gain the AWS Practitioner cert.
+          <br />
+          <br />
+          Since then I've opted for a more hands-on approach to upskilling, completing a series of projects involving as many Cloud, AI and data analysis tools as I can lay my hands on for free. The projects listed below illustrate this journey, showcasing my hands-on approach to acquiring new skills and applying them in practical scenarios. 
+          <br>
+          <br>
+          As well as refreshing my technical knowledge they also reinforced my problem-solving capabilities, preparing me for the challenges of an IT Architect or Business Analyst.
+        </p>
+      </div>
+    </section>
+    <!-- Content Divider -->
+    <div class="content-divider"></div>
+    <!-- End of Content Divider -->
+    <!-- Section title -->
+    <section class="architecture-phase1" id="architecture-phase1">
       <div class="section-center clearfix">
         <div class="section-title">
           <h2>Cloud Resume Challenge</h2>
@@ -80,7 +97,7 @@
         <h4>Project Summary</h4>
         <br>
         <p>
-          This project represents the beginning of my re-education and re-aquaintance with Cloud services after a pretty long absence. As stated elsewhere, the project brief has been defined in Forrest Brazeal's <a href="https://cloudresumechallenge.dev/" target="_blank">Cloud Resume Challenge</a>.
+          This project represents the beginning of my re-education and re-aquaintance with Cloud services after a pretty long absence. The project brief is defined in Forrest Brazeal's <a href="https://cloudresumechallenge.dev/" target="_blank">Cloud Resume Challenge</a>. In essence the challenge requires us to build a simple website using as many cloud-related services as possible. I do believe that getting hands-on with tech is the best way to learn and come up to speed with what’s possible.
           <br>
           <ul>My objectives for completing this project are:
             <li>Re-educate myself on the latest Cloud concepts and practices (PaaS, serverless, CI/CD,)</li>
@@ -126,12 +143,23 @@
         <br>
         The Visitor Counter process flow looks roughly like this:
         <img src="./images/visitorCounter_process.png" class="weatherForecast_process_img" alt="visitorCounter process">
+        <br>
+        <br>
+        <ul>Key learnings from this project were:
+            <li>Cloud has certainly democratized IT. Its pretty impressive that you can now have a website, app runtime environment, storage, database and secrets management services without having even one server OS to worry about, and all for the princely sum of $0.17/mth from Microsoft!</li>
+            <li>Resilience, patience and some humility were required to swallow the number of new concepts and technologies that went into this solution. Chipping away at it every day helped to make sure I felt that progress was being made, no matter how small.</li>
+            <li>Visual Studio Code plugins for Azure, Python and Github made life really easy. I could create and test the Azure Function locally with the assistance of the Azurite emulator, and the Azure plugin translated any local json settings to Azure Application Settings when deploying to Azure itself. Github Actions mean I can synch code and rebuild my entire website with a single command. </li>
+            <li> Regarding CosmosDB, I want to acknowledge a fellow challenger <a href="https://github.com/techbrett/azure-resume/" target="_blank">techbrett</a> for the SQL query solution, as its a much more databasey way of doing things than the Python code I was struggling with.</li>
+        </ul>
+        <br>
+        <br>
+        <a href="#top">Back To Top</a>
       </div>
     </section>
     <!-- Content Divider -->
     <div class="content-divider"></div>
     <!-- End of Content Divider -->
-    <section class="weatherForecast">
+    <section class="weatherForecast" id="weatherForecast">
       <div class="section-center clearfix">
         <div class="section-title">
           <h2>Weather Forecast Project</h2>
@@ -202,13 +230,21 @@
         <br>
         <br>
         </p>
+        <ul>Key learnings from this project were:
+            <li>My GPT Plus subscription came into its own on this project. It took a lot of wrangling to get the raw data from OpenWeatherMaps into the right format for OpenAI to make use of, and then again to get the OpenAI response presented in something readable, which meant iterating several times back and forward with the Python code. It also gave me options as to how to capture user-supplied variables, passing data between front and backend. </li>
+            <li>I learnt the value of logging, given the number of iterations I went through with data, variables, API key retrieval etc etc. This Udemy course by <a href="https://www.udemy.com/user/steveavon/" target = "_blank">Steve Avon</a> provided a great logging template.</li>
+            <li>A word on using GPT Plus - I do not wish to represent myself as something I'm not at this point in the journey. I haven't suddenly gained a decade of coding experience. But I can explain every line of code committed to Github. At the end of the day, the onus is on the individual - on me - to make sure I am always learning from the GPT, not just leaning on it. I do this by ensuring GPTPlus comments all code, and explains every line to me. I also include various phrases in the prompt such as 'best practice', 'most secure', and I also ask for alternative approaches. It does get it wrong sometimes - its still pushing completion methods that OpenAI themselves have actually deprecated! But - as long as I remember this, and don't do a Michael Cohen or a Channel 9, at a minimum it will fast track my education.</li>
+        </ul>
+        <br>
+        <br>
+        <a href="#top">Back To Top</a>
       </div>
     </section>
     <!-- Content Divider -->
     <div class="content-divider"></div>
     <!-- End of Content Divider -->
     <!-- Section title -->
-    <section class="architecture-phase1">
+    <section class="DataAnalysis1" id="DataAnalysis1">
       <div class="section-center clearfix">
         <div class="section-title">
           <h2>Data Anaysis Project - Reddit, COVID and Gamestop</h2>
@@ -217,7 +253,10 @@
         <h4>Project Summary</h4>
         <br>
         <p>
-          This project is my first move away from infrastructure and towards data.
+          My initial goal for this project was to determine whether there was any value in trawling through stock-related social media posts, in order to identify or even predict large moves up or down of the mentioned stocks. While this is still the end goal, another story emerged as I started to look at the high-level data, that I thought was worth documenting.
+          <br>
+          <br>
+          The approach was to plot the number of comments or posts on a social media platform against actual market prices, to see whether there was any correlation between retail investor sentiment expressed through social media, and actual stock or market prices. I would start at the highest level (total posts from a popular social media platform plotted against the S&P500), and then drill down into specific stocks. To continue the theme of exposing myself to the latest Cloud services, I would present this data through Tableau Public.This project is my first move away from infrastructure and towards data.
           <br>
           <ul>My objectives for completing this project are:
             <li>Expose myself to Cloud-based BI service Tableau Public</li>
@@ -241,14 +280,21 @@
           class="reddit_viz"
           alt="Reddit Viz"
         />
+        <ul>Key learnings from this project were:
+            <li>Data can be tricky to find - sometimes too expensive (Elon's $100/mth charge for access to the X API) or with restricted access (the usage policy on Reddit). Sometimes a search can yield amazing results - who knew someone was keeping an archive of ALL (yes ALL - even the dodgy ones!) subreddits!</li>
+            <li>Sometimes attempting to answer one question actually leads to a better story. In this case, I wasn't expecting the data to show the link between COVID and the formation of a mob so clearly. Fear, layoffs, furloughs, capital destruction, lockdowns and time on our hands proved the perfect honeypot for people wanting to protect their wealth, find alternative sources of income, and probably most importantly, feel connected to something. Add to that a burgeoning Robin Hood investor mentality, a desire to "stick it to the man", and we now have a very large number of emotive speculators in one spot needing an opportunity to express themselves. And didn't they do just that!</li>
+        </ul>
         <br>
+        <br>
+        <br>
+        <a href="#top">Back To Top</a>
       </div>
     </section>
     <!-- Content Divider -->
     <div class="content-divider"></div>
     <!-- End of Content Divider -->
 <!-- Section title -->
-    <section class="architecture-phase1">
+    <section class="DataAnalysis2" id="DataAnalysis2">
       <div class="section-center clearfix">
         <div class="section-title">
           <h2>Data Anaysis Project - ABS National Study of Mental Health and Wellbeing 2020-2022</h2>
@@ -268,9 +314,20 @@
           The Tableau Viz is too large to show here, but can be viewed <a href="https://public.tableau.com/views/Australia-RUOK/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" target="_blank">online at Tableau Public</a>
           <br>
           <br>
+
+          <ul>Key learnings from this project were:
+            <li>The joy of data prep :-) If I were to do this again I would register myself with the ABS under the guise of whatever commercial operation I was representing, and gain direct access to the source data. My data file bore little resemblance to the ones made aailable by ABS. The numbers are unchanged, but I can't programmatically prove data provenance back to the source.</li>
+            <li>Although Tableau Public allows you to create feature rich presentations, all the cool data management stuff is unfortunately not available.</li>
+            <li>Whatever your views are on the current societal conflicts around gender and sexuality, the fact remains that there are people hurting. Specifically, and sadly, its the people at the centre of these battles (young women, LGBTQI+). The main lesson I've learnt - show more empathy towards the human, regardless of the label.</li>
+          </ul>
+          <br>
+          <br>  
           The data was sourced from the <a href="https://www.abs.gov.au/statistics/health/mental-health/national-study-mental-health-and-wellbeing/2020-2022" target = "_blank"> ABS National Study of Mental Health and Wellbeing 2020-2022.</a>
           <br>
         </p>
+        <br>
+        <br>
+        <a href="#top">Back To Top</a>
       </div>
     </section>
     <!-- Content Divider -->
