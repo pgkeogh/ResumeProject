@@ -134,7 +134,10 @@ document.getElementById("submitBtn").addEventListener("click", function () {
       // Ensure the response is in JSON format
       const contentType = response.headers.get("content-type");
       console.log(contentType);
-      if (!contentType || !contentType.includes("application/json")) {
+      if (
+        !contentType ||
+        !contentType.toLowerCase().includes("application/json")
+      ) {
         throw new TypeError("Oops, we haven't got JSON!");
       }
       return response.json();
