@@ -592,6 +592,7 @@ Contact
   /* text-align: left; */
 }
 .resume-btn {
+  font-style: normal;
   font-size: 0.75rem;
   text-transform: capitalize;
   padding: 0.375rem 0.5rem;
