@@ -778,6 +778,52 @@ Contact
   width: 100%;
   height: auto;
 }
+
+/* Enhanced message styling */
+.message {
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-family: var(--ff-primary);
+}
+
+/* .message.info {
+  background-color: #e3f2fd;
+  border: 1px solid #2196f3;
+  color: #1976d2;
+} */
+
+.message.error {
+  background-color: #ffebee;
+  border: 1px solid #f44336;
+  color: #c62828;
+}
+
+.message-icon {
+  margin-right: 8px;
+}
+
+.forecast-content h3 {
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+
+.forecast-text {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.forecast-timestamp {
+  color: #666;
+  font-style: italic;
+}
+
+/* Button loading state */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .DataAnalysis1 {
   background: var(--clr-white);
 }
